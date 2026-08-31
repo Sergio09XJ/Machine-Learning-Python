@@ -1,0 +1,6 @@
+1. ¿Qué diferencia hay entre y en clasificación y y en regresión?
+ R = clasificación busca categorizar en base a los features y el target(aquí también salen números), regresión obtener una predicción, de un número. 
+2. ¿Por qué ¿comprará? es clasificación? #Porque esta comparando visitas y compras previas para encontrar la relación y saber si compra(categorización)
+3. ¿Por qué ¿cuánto venderá? es regresión? #Porque analiza la cantiad de clientes con la inversión de gasto y el resultado pasado de ventas para estimar las ventas futuras. 
+4. ¿Qué tipo de problema sería ¿qué categoría de producto comprará?? Categorización  busca saber un valor cualitativo(aquí también hay regresión al categorizar). 
+5. ¿Qué tipo de problema sería ¿cuántas unidades venderá?? Regresión, busca saber la cantidad, cuantitativo

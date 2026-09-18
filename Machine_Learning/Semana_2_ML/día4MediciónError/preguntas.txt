@@ -1,0 +1,27 @@
+
+Pregunta 4: 
+¿Por qué el valor de MSE y MAE no tiene que ser igual?
+Porque el MSE multiplca los valores a cuadrado haciendo que los elementos mas alejados de la linea mejor percibidos. 
+El MAE solo es el promedio de la diferencía(error) entre los valores de y_reales y los de y_predichos.
+
+Pregunta 5: 
+Supón que tienes dos modelos:
+
+Modelo A
+MAE = 3
+MSE = 15
+R² = 0.91
+
+Modelo B
+MAE = 4
+MSE = 8
+R² = 0.94
+
+  ¿Cuál tiene menor error absoluto promedio?
+  El modelo a, es de 3. 
+* ¿Cuál penaliza menos los errores grandes según MSE?
+  El modelo B es 8 mientas es A es 15, eso significa que el 15 tiene outliners mas altos.
+* ¿Cuál explica más variabilidad según R²?
+  El B es mas alto de .94, logro eliminar(explicar/entender de donde viene) el .94 de caos del modelo. 
+* ¿Por qué las métricas pueden dar señales diferentes?
+  Porque estan diseñandas para medir diferentes cosas del modelo en base a la información que se requiere. 

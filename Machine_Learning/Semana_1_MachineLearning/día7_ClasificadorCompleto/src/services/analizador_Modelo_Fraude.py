@@ -1,4 +1,4 @@
-
+:
 #Modelo de IA
 from sklearn.model_selection import train_test_split #Para test 
 from sklearn.linear_model import LogisticRegression  #Modelo de regression

@@ -1,0 +1,10 @@
+
+Interpretación: 
+ Random forest tuvo un mayor accuracy de 90% lo que indica que tuvo menos errores pero a pesar de eso su F1
+ es mas alto, de 90.5% en comparación con logisitic de 78.0% esto nos dice que tuvo un mejor balance entre la cantidad de TP reales(Precision) 
+ y la cantidad de TP que encontro(Recall). 
+ Para esta tarea evidentemente RandomForest es una mejor opción. 
+
+Nota: 
+ Si algun modelo hubera tenido un accuracy mas alto pero un menor desempeño en F1 y por tanto en Recall y Presicion, el otro modelo es mejor opción 
+ ya que tiene una mayor tasa de TP y menor FP y una mayor precison al encontrar TP

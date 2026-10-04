@@ -1,0 +1,22 @@
+# 1. ¿Qué significa el Accuracy obtenido?
+     Significa el % de predicciones que fueron correctas el TP y FP.
+#
+# 2. ¿Qué significa la Precision obtenida? 
+     La Precision es la la cantidad de TP que son correctos no falsos
+#
+# 3. ¿Qué significa el Recall obtenido? 
+      El Recall es de los TP correctos, cuantos tuve. 
+#
+# 4. ¿Qué significa el F1-score?
+     Es la Relación entre la precision y el recall, mientras mas balanceado  mejor el modelo 
+#
+# 5. ¿Cuántos fraudes reales detectó el modelo?
+     Detecto 80% de fraudes reales. 
+#
+# 6. ¿Cuántos fraudes reales dejó pasar?
+     Dejo pasar 1 fraude real.  
+#
+# 7. ¿Cuántas transacciones legítimas clasificó incorrectamente como fraude?     Solamente 1. 
+#
+# 8. ¿Qué representa cada elemento de la matriz de confusión? 
+     4 detecciones de fraude reales, 1 detección falsa de no fraude, 1 detección falsa de fraude y 4 detecciones de no fraude reales. 

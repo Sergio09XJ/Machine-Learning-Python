@@ -1,0 +1,421 @@
+﻿Fecha,Producto,Ciudad,Canal,Cantidad,Precio_Unitario,Descuento,Ventas
+2025-01-02,Audífonos,CDMX,Sitio web,2.0,1725.62,0.0,3451.25
+2025-01-02,Memoria RAM 16GB,Querétaro,Sitio web,2.0,1459.6,0.1,2627.27
+2025-01-02,Monitor,Mérida,Sitio web,1.0,4923.94,0.1,4431.54
+2025-01-05,Teclado,CDMX,Tienda física,1.0,1046.88,0.0,1046.88
+2025-01-05,Webcam,Monterrey,Sitio web,1.0,1500.29,0.05,1425.28
+2025-01-09,Mouse,Monterrey ,Tienda física,1.0,654.24,0.05,621.53
+2025-01-12,Monitor,Monterrey,Tienda física,5.0,5530.16,0.1,24885.72
+2025-01-14,Laptop,CDMX,Sitio web,2.0,20256.06,0.05,38486.52
+2025-01-15,Webcam,Querétaro,Tienda física,3.0,1301.42,0.0,3904.26
+2025-01-15,SSD 1TB,Tijuana,Sitio web,2.0,1792.79,0.0,3585.59
+2025-01-16,Memoria RAM 16GB,CDMX,Sitio web,1.0,1446.21,0.0,1446.21
+2025-01-17,SSD 1TB,Guadalajara,Sitio web,1.0,1816.11,0.05,1725.31
+2025-01-18,Laptop ,Mérida,Marketplace,2.0,17541.01,0.05,33327.93
+2025-01-20,Audífonos,Mérida,Sitio web,3.0,1806.3,0.05,5147.96
+2025-01-21,Webcam,CDMX,Tienda física,1.0,1347.89,0.0,1347.89
+2025-01-21,Laptop,Mérida,Tienda física,1.0,19447.91,0.15,16530.73
+2025-01-22,Laptop,CDMX,Marketplace,1.0,17196.34,0.0,17196.34
+2025-01-22,SSD 1TB,Tijuana,Marketplace,5.0,1893.67,0.05,8994.95
+2025-01-23,Memoria RAM 16GB,CDMX,sitio web,3.0,1502.4,0.1,4056.48
+2025-01-27,Laptop,CDMX,Marketplace,1.0,16543.26,0.0,16543.26
+2025-01-28,Teclado,CDMX,Marketplace,1.0,1012.92,0.15,860.98
+2025-01-28,Monitor,CDMX,Tienda física,2.0,5135.55,0.0,10271.1
+2025-02-02,Mouse,Guadalajara,Tienda física,1.0,676.6,0.0,676.6
+2025-02-02,Laptop,Querétaro,Tienda física,4.0,18648.57,0.15,63405.14
+2025-02-04,Memoria RAM 16GB,Tijuana,Marketplace,1.0,1407.06,0.05,1336.71
+2025-02-04,Teclado,CDMX,Marketplace,,1191.53,0.0,1191.53
+2025-02-05,Audífonos,Puebla,Sitio web,2.0,1781.82,0.0,3563.65
+2025-02-05,Mouse,Mérida,Sitio web,2.0,634.35,0.1,1141.82
+2025-02-06,Laptop,Querétaro,Tienda física,3.0,20506.74,0.1,55368.2
+2025-02-06,Mouse,Monterrey,Tienda física,3.0,630.22,0.0,1890.67
+2025-02-07,Teclado,Mérida,Tienda física,1.0,1075.66,0.1,968.09
+2025-02-08,Teclado,CDMX,Sitio web,1.0,1088.09,0.0,1088.09
+2025-02-10,SSD 1TB,Querétaro,Sitio web,1.0,1854.36,0.05,1761.64
+2025-02-10,Monitor,CDMX,Sitio web,1.0,5209.35,0.0,5209.35
+2025-02-12,Webcam,Puebla,Marketplace,1.0,1266.57,0.0,1266.57
+2025-02-15,Monitor,Mérida,Sitio web,1.0,4970.43,0.0,4970.43
+2025-02-16,Audífonos,Mérida,Marketplace,1.0,1872.38,0.1,1685.15
+2025-02-16,Audífonos,Querétaro,Sitio web,1.0,,0.0,1923.7
+2025-02-17,Memoria RAM 16GB,Guadalajara,Marketplace,3.0,1373.54,0.0,4120.61
+2025-02-18,Teclado,Querétaro,Sitio web,1.0,1066.31,0.1,959.68
+2025-02-20,Teclado,Monterrey,Sitio web,2.0,1224.83,0.0,2449.66
+2025-02-22,Mouse,Puebla,Tienda física,2.0,645.52,0.0,1291.04
+2025-02-22,Teclado,Tijuana,Marketplace,1.0,1099.11,0.0,1099.11
+2025-02-22,Laptop,Puebla,Sitio web,2.0,17832.92,0.0,35665.84
+2025-02-23,Mouse,CDMX,Sitio web,1.0,656.57,0.05,623.74
+2025-02-23,Mouse,Puebla,Tienda física,1.0,685.08,0.0,685.08
+2025-02-27,Laptop,Mérida,Sitio web,1.0,20115.07,0.0,20115.07
+2025-02-27,SSD 1TB,Tijuana,Sitio web,1.0,1815.78,0.0,1815.78
+2025-02-28,Teclado,CDMX,Tienda física,2.0,1110.96,0.05,2110.83
+2025-03-04,Teclado,CDMX,Marketplace,5.0,1144.37,10%,5721.84
+2025-03-06,Teclado,Mérida,Tienda física,1.0,989.79,0.0,989.79
+2025-03-10,Mouse,Monterrey,Sitio web,1.0,621.05,0.0,621.05
+2025-03-13,Laptop,Mérida,Sitio web,3.0,18234.46,0.0,54703.38
+2025-03-17,Teclado,Querétaro,Tienda física,3.0,1009.67,0.0,3029.0
+2025-03-22,Teclado,Querétaro,Tienda física,2.0,1118.25,0.15,1901.03
+2025-03-22,Webcam,CDMX,Tienda física,1.0,1409.55,0.1,1268.6
+2025-03-27,Mouse,Puebla,Tienda física,1.0,728.7,0.15,619.39
+2025-03-27,Webcam,Querétaro,Sitio web,1.0,1229.04,0.15,1044.68
+2025-03-29,Memoria RAM 16GB,Mérida,Sitio web,1.0,1457.04,0.0,1457.04
+2025-03-31,Teclado,Tijuana,Sitio web,2.0,1173.36,0.0,2346.73
+2025-04-02,Teclado,CDMX,Sitio web,1.0,1036.35,0.1,932.71
+2025-04-02,Memoria RAM 16GB,Guadalajara,Sitio web,1.0,1449.19,0.05,1376.73
+2025-04-04,Mouse,Monterrey,Tienda física,1.0,676.4,0.0,676.4
+2025-04-06,Mouse,Guadalajra,Marketplace,2.0,605.86,0.05,1151.13
+2025-04-06,Webcam,Monterrey,Tienda física,1.0,1480.23,0.0,1480.23
+2025-04-09,Laptop,Guadalajara,Sitio web,2.0,18216.67,0.1,32790.01
+2025-04-09,SSD 1TB,Guadalajara,Marketplace,2.0,2039.44,0.15,3467.05
+2025-04-09,Monitor,CDMX,Tienda física,2.0,5239.26,0.1,9430.68
+2025-04-09,Monitor,Guadalajara,Marketplace,4.0,5170.56,0.0,20682.22
+2025-04-09,Memoria RAM 16GB,Guadalajara,Tienda física,1.0,1392.62,0.0,1392.62
+2025-04-10,Mouse,CDMX,Tienda física,1.0,649.82,0.05,617.33
+2025-04-10,Monitor,Puebla,Sitio web,1.0,5198.02,0.05,4938.12
+2025-04-13,Webcam,Guadalajara,Marketplace,1.0,1371.7,0.0,1371.7
+2025-04-13,SSD 1TB,CDMX,Marketplace,1.0,2008.53,0.0,2008.53
+2025-04-14,Teclado,Guadalajara,Tienda física,1.0,1087.83,0.0,1087.83
+2025-04-14,Audífonos,Guadalajara,Tienda física,4.0,1957.21,0.05,7437.39
+2025-04-16,Monitor,Querétaro,Sitio web,2.0,5423.29,0.05,10304.24
+2025-04-16,Webcam,CDMX,Sitio web,2.0,1331.37,0.1,2396.47
+2025-04-17,Memoria RAM 16GB,Tijuana,Sitio web,2.0,1604.57,0.05,3048.69
+2025-04-22,Monitor,CDMX,Tienda física,3.0,5246.08,0.05,14951.33
+2025-04-23,Audífonos,CDMX,Sitio web,4.0,1825.4,0.0,7301.61
+2025-04-23,Mouse,Guadalajara,Sitio web,-2.0,692.35,0.0,692.35
+2025-04-23,Mouse,Tijuana,Tienda física,2.0,624.62,0.1,1124.32
+2025-04-26,SSD 1TB,Querétaro,Marketplace,2.0,1931.09,0.0,3862.18
+2025-04-27,Mouse,CDMX,Sitio web,5.0,674.7,0.05,3204.83
+2025-04-28,Laptop,Tijuana,Tienda física,1.0,17353.52,0.05,16485.84
+2025-04-30,SSD 1TB,Puebla,Tienda física,1.0,1713.01,0.0,1713.01
+2025-04-30,Laptop,CDMX,Sitio web,1.0,17609.23,0.0,17609.23
+2025-05-02,Memoria RAM 16GB,Guadalajara,Sitio web,1.0,1608.44,0.0,1608.44
+2025-05-03,Audífonos,Querétaro,Tienda física,1.0,1842.86,0.0,1842.86
+2025-05-04,Mouse,CDMX,Sitio web,2.0,713.31,0.0,1426.62
+2025-05-05,SSD 1TB,CDMX,Marketplace,1.0,1859.53,0.1,1673.58
+2025-05-07,Teclado,Puebla,Tienda física,3.0,1244.37,0.0,3733.12
+2025-05-08,Laptop,Guadalajara,Tienda física,2.0,19665.62,0.0,39331.25
+2025-05-09,Memoria RAM 16GB,Querétaro,Tienda física,3.0,1450.96,0.0,4352.87
+2025-05-10,Teclado,Querétaro,Sitio web,1.0,1014.65,0.0,1014.65
+2025-05-11,Mouse,Querétaro,Marketplace,4.0,0.0,0.05,2639.29
+2025-05-11,Webcam,Puebla,Marketplace,1.0,1371.17,0.0,1371.17
+2025-05-11,Teclado,Guadalajara,Sitio web,1.0,1087.36,0.05,1032.99
+2025-05-15,Mouse,Guadalajara,Sitio web,1.0,722.59,0.05,686.46
+2025-05-15,Mouse,Tijuana,Sitio web,3.0,641.18,0.05,1827.35
+2025-05-19,Monitor,CDMX,Tienda física,4.0,4691.57,0.0,18766.27
+2025-05-23,Mouse,Monterrey,Sitio web,2.0,622.97,0.05,1183.63
+2025-05-24,Webcam,CDMX,Sitio web,1.0,1374.79,0.0,1374.79
+2025-05-24,Laptop,Puebla,Sitio web,2.0,17580.7,0.0,35161.41
+2025-05-27,Mouse,CDMX,Sitio web,2.0,674.55,0.0,1349.09
+2025-05-28,Audífonos,Querétaro,Marketplace,1.0,1807.88,0.0,1807.88
+2025-05-30,Audífonos,Tijuana,Marketplace,1.0,1633.72,0.15,1388.66
+2025-05-31,SSD 1TB,CDMX,Marketplace,1.0,1899.82,0.1,1709.84
+2025-06-01,Mouse,Puebla,Sitio web,3.0,625.02,0.05,1781.31
+2025-06-02,Webcam,Tijuana,Tienda física,1.0,1392.78,0.1,1253.51
+2025-06-03,Teclado,CDMX,Tienda física,1.0,999.33,0.0,
+2025-06-04,SSD 1TB,Guadalajara,Sitio web,2.0,1784.36,0.05,3390.28
+2025-06-06,Webcam,CDMX,Sitio web,1.0,1468.36,0.0,1468.36
+2025-06-07,Memoria RAM 16GB,Guadalajara,Tienda física,2.0,1575.04,0.05,2992.58
+2025-06-09,Mouse,Tijuana,Sitio web,2.0,604.33,0.0,1208.66
+2025-06-09,Monitor,Puebla,Tienda física,1.0,4116.91,0.1,3705.22
+2025-06-09,Mouse,Monterrey,Sitio web,1.0,656.81,0.1,591.13
+2025-06-10,Audífonos,Monterrey,Marketplace,3.0,1792.05,0.0,5376.15
+2025-06-10,Laptop,CDMX,Sitio web,5.0,19929.66,0.0,99648.3
+2025-06-10,SSD 1TB,CDMX,Marketplace,2.0,1948.07,0.1,3506.53
+2025-06-11,Teclado,Guadalajara,Marketplace,1.0,1155.15,0.05,1097.39
+2025-06-12,SSD 1TB,Puebla,Sitio web,1.0,1971.08,0.0,1971.08
+2025-06-16,Audífonos,Monterrey,Sitio web,2.0,1891.95,0.0,3783.9
+2025-06-17,Audífonos,CDMX,Sitio web,2.0,1614.23,0.0,3228.46
+2025-06-20,Mouse,CDMX,Tienda física,2.0,665.62,0.15,1131.55
+2025-06-21,SSD 1TB,Monterrey,Marketplace,4.0,1691.29,0.0,6765.17
+2025-13-45,Laptop,Monterrey,Marketplace,1.0,18918.86,0.0,18918.86
+2025-06-29,Laptop,CDMX,Sitio web,4.0,20234.1,0.0,80936.41
+2025-06-30,Teclado,Querétaro,Tienda física,1.0,1047.86,0.1,943.07
+2025-07-03,Mouse,CDMX,Tienda física,1.0,575.43,0.1,517.89
+2025-07-06,Memoria RAM 16GB,CDMX,Sitio web,1.0,1587.87,0.0,1587.87
+2025-07-07,Webcam,Guadalajara,Sitio web,1.0,1301.09,0.0,1301.09
+2025-07-08,Mouse,Monterrey,Sitio web,1.0,645.13,0.0,645.13
+2025-07-09,Teclado,Puebla,Marketplace,4.0,1099.03,0.0,4396.11
+2025-07-09,Audífonos,Guadalajara,Tienda física,1.0,1797.56,0.0,1797.56
+2025-07-09,Teclado,CDMX,Tienda física,1.0,980.95,0.0,980.95
+2025-07-10,Mouse,CDMX,Sitio web,1.0,675.36,0.1,607.83
+2025-07-11,Memoria RAM 16GB,Mérida,Sitio web,1.0,1551.42,0.0,1551.42
+2025-07-11,SSD 1TB,Guadalajara,Tienda física,2.0,1819.17,0.0,3638.34
+2025-07-14,Audífonos,Puebla,Marketplace,1.0,2003.75,0.1,1803.38
+2025-07-15,SSD 1TB,Monterrey,Marketplace,3.0,1884.58,0.0,5653.74
+2025-07-17,Monitor,Puebla,Sitio web,3.0,5325.17,0.1,14377.96
+2025-07-20,Memoria RAM 16 GB,Tijuana,Tienda física,1.0,1502.87,0.0,1502.87
+2025-07-20,Audífonos,Tijuana,Tienda física,1.0,1888.4,0.0,1888.4
+2025-07-21,Mouse,Puebla,Tienda física,3.0,719.5,0.1,1942.66
+2025-07-22,Memoria RAM 16GB,CDMX,Marketplace,1.0,1535.29,0.0,1535.29
+2025-07-23,Laptop,Monterrey,Tienda física,1.0,18557.31,0.0,18557.31
+2025-07-25,Memoria RAM 16GB,CDMX,Tienda física,2.0,1489.21,0.05,2829.51
+2025-07-26,Laptop,Mérida,Marketplace,4.0,18085.53,0.15,61490.79
+2025-07-27,Teclado,Querétaro,Sitio web,1.0,1097.35,0.0,1097.35
+2025-08-03,Laptop,Guadalajara,Sitio web,3.0,19181.36,0.0,57544.09
+2025-08-05,Monitor,CDMX,Sitio web,1.0,5248.37,0.0,5248.37
+2025-08-06,Memoria RAM 16GB,Monterrey,Sitio web,2.0,1485.08,0.0,2970.17
+2025-08-06,Audífonos,Querétaro,Sitio web,1.0,1659.8,0.1,1493.82
+2025-08-08,Webcam,Guadalajara,Sitio web,2.0,1416.85,0.0,2833.71
+2025-08-08,Memoria RAM 16GB,Querétaro,Sitio web,1.0,1506.07,0.05,1430.77
+2025-08-08,Laptop,CDMX,Marketplace,3.0,19588.75,0.0,58766.24
+2025-08-11,Audífonos,CDMX,Tienda física,3.0,1783.39,0.05,5082.65
+2025-08-13,Laptop,Monterrey,Tienda física,1.0,18716.91,0.0,18716.91
+2025-08-13,Webcam,Guadalajara,Sitio web,3.0,1378.8,0.0,4136.4
+2025-08-13,Webcam,Querétaro,Sitio web,1.0,1390.7,0.0,1390.7
+2025-08-14,SSD 1TB,CDMX,Sitio web,4.0,1782.96,0.05,6775.26
+2025-08-15,Memoria RAM 16GB,CDMX,Sitio web,1.0,1552.15,0.0,1552.15
+2025-08-18,SSD 1TB,Guadalajara,Sitio web,1.0,1945.8,0.0,1945.8
+2025-08-19,Laptop,CDMX,Sitio web,1.0,16770.67,0.05,15932.14
+2025-08-19,SSD 1TB,CDMX,Tienda física,2.0,1947.68,0.0,3895.36
+2025-08-19,Webcam,CDMX,Tienda fisica,1.0,1601.77,0.0,1601.77
+2025-08-21,Monitor,CDMX,Tienda física,5.0,4850.99,0.1,21829.44
+2025-08-21,SSD 1TB,Guadalajara,Tienda física,3.0,1645.28,0.0,4935.83
+2025-08-22,Memoria RAM 16GB,CDMX,Marketplace,1.0,1490.51,0.0,1490.51
+2025-08-25,Audífonos,Mérida,Sitio web,4.0,1711.83,0.05,6504.95
+2025-08-29,Mouse,CDMX,Tienda física,2.0,612.92,0.0,1225.85
+2025-08-30,Teclado,Mérida,Sitio web,1.0,1069.76,0.0,1069.76
+2025-08-31,Memoria RAM 16GB,Mérida,Sitio web,1.0,1488.21,0.05,1413.8
+2025-09-01,Teclado,Mérida,Sitio web,2.0,1132.19,0.0,2264.37
+2025-09-03,Mouse,CDMX,Tienda física,1.0,623.89,0.0,623.89
+2025-09-04,Teclado,Puebla,Sitio web,2.0,998.84,0.05,1897.79
+2025-09-04,Audífonos,CDMX,Tienda física,2.0,1916.12,0.05,3640.63
+2025-09-09,Mouse,CDMX,Sitio web,1.0,618.08,0.0,618.08
+2025-09-10,Mouse,Monterrey,Marketplace,1.0,641.35,0.0,641.35
+2025-09-10,Monitor,Querétaro,Marketplace,1.0,5341.9,0.15,4540.61
+2025-09-10,Webcam,Mérida,Marketplace,1.0,1285.04,0.0,1285.04
+2025-09-11,Webcam,Tijuana,Sitio web,1.0,1551.14,0.0,1551.14
+2025-09-11,Memoria RAM 16GB,Querétaro,Marketplace,1.0,1504.32,0.15,1278.67
+2025-09-11,Monitor,CDMX,Tienda física,1.0,5204.89,0.05,4944.65
+2025-09-13,Laptop,Mérida,Sitio web,1.0,19231.91,0.1,17308.72
+2025-09-15,Mouse,Guadalajara,Sitio web,1.0,727.35,0.0,727.35
+2025-09-16,Laptop,Mérida,Sitio web,tres,18945.49,0.0,56836.47
+2025-09-20,Audífonos,Tijuana,Tienda física,3.0,2066.21,0.1,5578.76
+2025-09-21,SSD 1TB,CDMX,Marketplace,1.0,2101.68,0.05,1996.6
+2025-09-25,Mouse,Tijuana,Marketplace,2.0,697.68,0.1,1255.82
+2025-09-25,Monitor,CDMX,Sitio web,4.0,5579.82,0.0,22319.28
+2025-09-26,Teclado,CDMX,Marketplace,1.0,1064.92,0.15,905.18
+2025-09-27,Memoria RAM 16GB,Querétaro,Tienda física,1.0,1553.12,0.05,1475.47
+2025-09-28,Webcam,Tijuana,Marketplace,1.0,1343.79,0.0,1343.79
+2025-09-28,Mouse,Querétaro,Marketplace,4.0,749.01,0.0,2996.04
+2025-09-29,Teclado,CDMX,Marketplace,2.0,1126.92,0.0,2253.85
+2025-10-01,SSD 1TB,Guadalajara,Sitio web,1.0,1787.38,0.0,1787.38
+2025-10-04,Memoria RAM 16GB,CDMX,Sitio web,1.0,1400.06,0.05,1330.06
+2025-10-04,Monitor,Mérida,Marketplace,4.0,5502.8,0.05,20910.65
+2025-10-04,Monitor,Monterrey,Marketplace,5.0,4854.83,0.0,24274.16
+2025-10-07,Laptop,Puebla,Marketplace,2.0,18184.82,0.1,32732.68
+2025-10-07,Teclado,Guadalajara,Marketplace,1.0,1123.15,0.0,1123.15
+2025-10-10,Webcam,Guadalajara,Marketplace,1.0,1322.48,0.0,1322.48
+2025-10-10,SSD 1TB,Querétaro,Marketplace,1.0,1940.8,0.1,1746.72
+2025-10-11,Mouse,Guadalajara,Marketplace,2.0,672.12,0.0,1344.23
+2025-10-12,Teclado,Mérida,Marketplace,2.0,1153.86,0.05,2192.34
+2025-10-12,Teclado,Querétaro,Marketplace,1.0,1114.28,0.15,947.14
+2025-10-15,Mouse,Monterrey,Sitio web,2.0,754.81,0.05,1434.15
+2025-10-16,Teclado,Querétaro,Tienda física,1.0,1047.3,0.0,1047.3
+2025-10-16,Monitor,Guadalajara,Tienda física,1.0,-1500.0,0.1,4656.68
+2025-10-21,Teclado,Mérida,Sitio web,3.0,1038.14,0.05,2958.71
+2025-10-23,Mouse,Monterrey,Marketplace,1.0,610.33,0.05,579.81
+2025-10-25,Teclado,CDMX,Sitio web,1.0,1084.4,0.15,921.74
+2025-10-29,Webcam,Querétaro,Sitio web,1.0,1394.94,0.1,1255.44
+2025-10-29,Teclado,Tijuana,Sitio web,5.0,1124.58,0.05,5341.76
+2025-10-31,Memoria RAM 16GB,CDMX,Sitio web,5.0,1494.36,0.0,7471.8
+2025-11-01,Mouse,Puebla,Sitio web,1.0,661.38,0.15,562.18
+2025-11-05,Memoria RAM 16GB,CDMX,Marketplace,1.0,1541.19,0.1,1387.07
+2025-11-10,Memoria RAM 16GB,Tijuana,Marketplace,1.0,1490.22,0.0,1490.22
+2025-11-10,Teclado,Guadalajara,Tienda física,1.0,1001.91,0.0,1001.91
+2025-11-12,Webcam,Guadalajara,Tienda física,1.0,1363.0,0.05,1294.85
+2025-11-14,Memoria RAM 16GB,Puebla,Tienda física,2.0,1598.19,0.0,3196.39
+2025-11-17,Monitor,CDMX,Sitio web,1.0,4967.63,0.0,4967.63
+2025-11-19,Laptop,Querétaro,Sitio web,1.0,18071.01,0.0,18071.01
+2025-11-19,Audífonos,CDMX,Tienda física,3.0,1870.55,0.05,5331.08
+2025-11-21,Webcam,Mérida,Marketplace,1.0,1265.33,0.0,1265.33
+2025-11-22,Memoria RAM 16GB,CDMX,Tienda física,2.0,1599.36,0.05,3038.79
+2025-11-27,Laptop,CDMX,Sitio web,1.0,20007.25,0.1,18006.52
+2025-11-27,Memoria RAM 16GB,Puebla,Marketplace,1.0,1533.75,0.0,1533.75
+2025-12-02,Laptop,CDMX,Marketplace,1.0,16790.33,0.15,14271.78
+2025-12-04,Webcam,Guadalajara,Sitio web,1.0,1552.16,0.0,1552.16
+2025-12-04,Memoria RAM 16GB,CDMX,Sitio web,1.0,1546.5,0.15,1314.53
+2025-12-04,Teclado,CDMX,Marketplace,1.0,1041.28,0.0,-500.0
+2025-12-06,SSD 1TB,Querétaro,Sitio web,1.0,1982.37,0.0,1982.37
+2025-12-06,SSD 1TB,Tijuana,Tienda física,1.0,1890.32,0.05,1795.8
+2025-12-07,Memoria RAM 16GB,Guadalajara,Tienda física,1.0,1485.98,0.05,1411.68
+2025-12-08,Memoria RAM 16GB,Guadalajara,Sitio web,2.0,1422.15,0.0,2844.29
+2025-12-10,Mouse,Mérida,Tienda física,1.0,738.75,0.15,627.94
+2025-12-10,Audífonos,CDMX,Sitio web,1.0,1610.63,0.05,1530.09
+2025-12-12,Monitor,CDMX,Tienda física,1.0,5004.69,0.1,4504.22
+2025-12-12,Audífonos,CDMX,Tienda física,1.0,1800.33,0.0,1800.33
+2025-12-12,Audífonos,Mérida,Sitio web,1.0,1666.79,0.05,1583.45
+2025-12-12,Teclado,CDMX,Tienda física,1.0,1133.51,0.15,963.49
+2025-12-14,Teclado,Querétaro,Tienda física,1.0,1088.58,0.0,1088.58
+2025-12-15,Teclado,CDMX,Sitio web,1.0,1053.05,0.1,947.75
+2025-12-15,Mouse,Tijuana,Tienda física,1.0,627.95,0.05,596.56
+2025-12-16,Mouse,Puebla,Marketplace,1.0,689.14,0.0,689.14
+2025-12-20,Laptop,Puebla,Sitio web,1.0,18022.53,0.0,18022.53
+2025-12-23,Teclado,Monterrey,Sitio web,1.0,1121.9,0.05,1065.81
+2025-12-25,Webcam,CDMX,Tienda física,1.0,1583.33,0.0,1583.33
+2025-12-31,Webcam,Guadalajara,Sitio web,2.0,1429.8,0.05,2716.62
+2026-01-02,Mouse,Guadalajara,Tienda física,1.0,610.92,0.05,580.37
+2026-01-05,Audífonos,Tijuana,Tienda física,1.0,1855.62,0.05,1762.84
+2026-01-08,SSD 1TB,Tijuana,Sitio web,4.0,1923.22,0.0,7692.87
+2026-01-08,Webcam,Guadalajara,Sitio web,3.0,1374.6,0.0,4123.81
+2026-01-09,SSD 1TB,Mérida,Sitio web,1.0,2103.01,0.05,1997.86
+2026-01-10,SSD 1TB,Monterrey,Sitio web,2.0,1739.17,0.0,3478.33
+2026-01-12,Audífonos,CDMX ,Tienda física,4.0,1995.69,0.0,7982.78
+2026-01-14,Audífonos,Mérida,Sitio web,1.0,1865.62,0.0,1865.62
+2026-01-15,Monitor,Tijuana,Marketplace,1.0,5263.55,0.0,5263.55
+2026-01-15,SSD 1TB,Monterrey,Sitio web,2.0,1857.96,0.05,3530.12
+2026-01-20,Audífonos,Tijuana,Tienda física,1.0,1685.24,0.0,1685.24
+2026-01-20,Teclado,Puebla,Marketplace,2.0,1185.12,0.05,2251.74
+2026-01-21,Memoria RAM 16GB,Monterrey,Sitio web,1.0,1406.85,0.0,1406.85
+2026-01-21,Monitor,Guadalajara,Sitio web,2.0,5444.61,0.0,10889.22
+2026-01-21,Memoria RAM 16GB,Puebla,Sitio web,1.0,1490.5,0.05,1415.98
+2026-01-22,Memoria RAM 16GB,Mérida,Tienda física,4.0,1487.98,0.05,5654.32
+2026-01-23,Mouse,CDMX,Tienda física,1.0,608.61,0.0,608.61
+2026-01-23,Teclado,Guadalajara,Tienda física,2.0,1185.87,0.0,2371.74
+2026-01-25,Memoria RAM 16GB,Puebla,Tienda física,1.0,1525.82,0.05,1449.53
+2026-01-27,Memoria RAM 16GB,Monterrey,Sitio web,1.0,1545.93,0.0,1545.93
+2026-01-27,Laptop,Puebla,Sitio web,2.0,17666.49,0.0,35332.99
+2026-01-28,Memoria RAM 16GB,Monterrey,Sitio web,1.0,1419.51,0.05,1348.53
+2026-01-28,Audífonos,CDMX,Sitio web,1.0,1660.64,0.05,1577.61
+2026-01-28,Monitor,CDMX,Tienda física,2.0,5223.08,0.0,10446.15
+2026-02-01,Audífonos,Querétaro,Marketplace,1.0,1791.99,0.1,1612.79
+2026-02-02,Teclado,Querétaro,Sitio web,1.0,1004.31,0.05,954.09
+2026-02-02,Memoria RAM 16GB,CDMX,Marketplace,2.0,1358.7,0.05,2581.54
+2026-02-04,SSD 1TB,Querétaro,Sitio web,2.0,2046.75,0.0,4093.51
+2026-02-05,Mouse,CDMX,Tienda física,1.0,686.97,0.05,652.62
+2026-02-05,Monitor,Querétaro,Tienda física,1.0,5250.07,0.05,4987.57
+2026-02-06,Monitor,CDMX,Sitio web,2.0,5061.27,0.05,9616.42
+2026-02-07,Laptop,Guadalajara,Tienda física,1.0,18209.85,0.0,18209.85
+2026-02-07,Monitor,Guadalajara,Marketplace,2.0,4834.15,0.0,9668.3
+2026-02-08,Mouse,CDMX,Marketplace,1.0,606.29,1.5,545.66
+2026-02-11,Laptop,Monterrey,Sitio web,2.0,19463.22,0.0,38926.44
+2026-02-11,Webcam,CDMX,Marketplace,3.0,1528.66,0.0,4585.99
+2026-02-12,Audífonos,Monterrey,Marketplace,4.0,1815.65,0.1,6536.32
+2026-02-15,Mouse,Guadalajara,Sitio web,1.0,694.04,0.15,589.94
+2026-02-18,Laptop,CDMX,Marketplace,3.0,16887.34,0.0,50662.01
+2026-02-19,Teclado,Tijuana,Marketplace,3.0,1066.53,0.05,3039.61
+2026-02-20,Teclado,Tijuana,Sitio web,1.0,1023.65,0.0,1023.65
+2026-02-21,SSD 1TB,CDMX,Sitio web,3.0,2066.41,0.1,5579.31
+2026-02-23,Monitor,Querétaro,Tienda física,2.0,4724.51,0.0,9449.01
+2026-02-24,Monitor,CDMX,Sitio web,2.0,5389.42,0.0,10778.85
+2026-02-26,Teclado,CDMX,Tienda física,2.0,1186.54,0.05,2254.42
+2026-03-03,Laptop,Mérida,Tienda física,1.0,15660.21,0.0,15660.21
+2026-03-04,Monitor,CDMX,Marketplace,1.0,5072.87,0.1,4565.59
+2026-03-08,Mouse,Mérida,Sitio web,1.0,607.53,0.0,607.53
+2026-03-11,Laptop,CDMX,Sitio web,1.0,17241.46,0.0,17241.46
+2026-03-12,SSD 1TB,Querétaro,Marketplace,1.0,2065.59,0.0,2065.59
+2026-03-14,Laptop,CDMX,Tienda física,1.0,17567.29,0.1,15810.56
+2026-03-15,SSD 1TB,Querétaro,Marketplace,1.0,1871.19,0.0,1871.19
+2026-03-18,Laptop,Guadalajara,Sitio web,1.0,17531.05,0.0,17531.05
+2026-03-18,Laptop,CDMX,Sitio web,1.0,18197.64,0.1,16377.88
+2026-03-20,Mouse,Guadalajara,Tienda física,4.0,660.37,0.1,2377.33
+2026-03-23,Teclado,CDMX,Sitio web,1.0,1073.82,0.1,966.44
+2026-03-29,Monitor,Guadalajara,Sitio web,1.0,5367.57,0.0,5367.57
+2026-03-29,Memoria RAM 16GB,Tijuana,Sitio web,1.0,1434.41,0.05,1362.69
+2026-03-29,Laptop,Tijuana,Sitio web,1.0,21456.13,0.05,20383.33
+2026-03-31,Teclado,Puebla,Tienda física,1.0,1090.2,0.0,1090.2
+2026-04-01,SSD 1TB,CDMX,Marketplace,1.0,1970.53,0.0,1970.53
+2026-04-01,Teclado,CDMX,Tienda física,3.0,1134.58,0.0,3403.74
+2026-04-04,Audífonos,CDMX,Tienda física,5.0,1924.67,0.0,9623.35
+2026-04-05,Laptop,CDMX,Sitio web,2.0,18710.73,0.15,31808.24
+2026-04-05,SSD 1TB,Mérida,Tienda física,2.0,1867.83,0.0,3735.65
+2026-04-06,,Mérida,Marketplace,3.0,19148.02,0.1,51699.65
+2026-04-07,Teclado,Monterrey,Sitio web,4.0,1183.83,0.0,4735.31
+2026-04-07,Webcam,Monterrey,Sitio web,2.0,1374.77,0.0,2749.54
+2026-04-09,Teclado,CDMX,Tienda física,3.0,1027.35,0.0,3082.05
+2026-04-12,Webcam,Querétaro,Marketplace,1.0,1299.48,0.0,1299.48
+2026-04-15,Mouse,Puebla,Marketplace,1.0,672.49,0.0,672.49
+2026-04-16,Teclado,Querétaro,Sitio web,2.0,979.93,0.1,1763.87
+2026-04-17,SSD 1TB,CDMX,Tienda física,5.0,1821.84,0.0,9109.2
+2026-04-17,SSD 1TB,Querétaro,Sitio web,1.0,2145.7,0.0,2145.7
+2026-04-18,Mouse,Tijuana,Sitio web,2.0,618.27,0.05,1174.71
+2026-04-18,Teclado,Guadalajara,Sitio web,1.0,1116.59,0.1,1004.93
+2026-04-18,Mouse,Puebla,Tienda física,2.0,623.16,0.1,1121.69
+2026-04-19,Monitor,CDMX,Marketplace,4.0,5113.14,0.0,20452.57
+2026-04-19,Audífonos,CDMX,Sitio web,4.0,1970.44,0.0,7881.74
+2026-04-20,Monitor,CDMX,Tienda física,4.0,5594.88,0.0,22379.51
+2026-04-20,Mouse,Querétaro,Sitio web,3.0,690.04,0.05,1966.6
+2026-04-21,Mouse,Mérida,Sitio web,1.0,706.33,0.05,671.01
+2026-04-22,Teclado,Tijuana,Tienda física,3.0,1184.94,0.0,3554.82
+2026-04-22,SSD 1TB,CDMX,Marketplace,1.0,1851.24,0.0,1851.24
+2026-04-22,Mouse,Tijuana,Sitio web,2.0,634.43,0.15,1078.54
+2026-04-26,Laptop,CDMX,Tienda física,1.0,19629.43,0.1,17666.48
+2026-04-30,Audífonos,CDMX,Marketplace,4.0,1891.95,0.0,7567.79
+2026-04-30,SSD 1TB,Tijuana,Sitio web,3.0,2014.97,0.05,5742.67
+2026-05-03,Laptop,Querétaro,Sitio web,1.0,19079.69,0.05,18125.71
+2026-05-04,SSD 1TB,Guadalajara,Sitio web,1.0,1988.93,0.05,1889.48
+2026-05-05,Laptop,Guadalajara,Sitio web,1.0,16813.71,0.05,15973.02
+2026-05-05,Mouse,CDMX,Sitio web,1.0,680.53,0.05,646.51
+2026-05-07,Audífonos,Guadalajara,Sitio web,2.0,1843.87,0.1,3318.97
+2026-05-08,Audífonos,Monterrey,Tienda física,1.0,1790.36,0.05,1700.85
+2026-05-12,Teclado,Guadalajara,Sitio web,2.0,1072.89,0.05,2038.5
+2026-05-12,Audífonos,Monterrey,Marketplace,1.0,1631.96,0.15,1387.17
+2026-05-12,SSD 1TB,Mérida,Marketplace,1.0,1858.86,0.05,1765.92
+2026-05-14,Laptop,Guadalajara,Sitio web,3.0,18770.44,0.0,56311.31
+,Mouse,Puebla,Marketplace,1.0,671.52,0.0,671.52
+2026-05-18,SSD 1TB,Mérida,Sitio web,2.0,1805.88,0.0,3611.77
+2026-05-18,Laptop,CDMX,Sitio web,1.0,19056.15,0.05,18103.34
+2026-05-19,Mouse,Querétaro,Marketplace,2.0,715.56,0.0,1431.13
+2026-05-20,Monitor,CDMX,Tienda física,1.0,4752.56,0.0,4752.56
+2026-05-21,Mouse,CDMX,Sitio web,1.0,620.46,0.05,589.44
+2026-05-21,Laptop,Monterrey,Sitio web,1.0,19068.24,0.0,19068.24
+2026-05-24,Teclado,Querétaro,Sitio web,2.0,983.16,0.0,1966.33
+2026-05-25,Monitor,CDMX,Tienda física,1.0,5159.15,0.0,5159.15
+2026-05-25,Teclado,Tijuana,Marketplace,3.0,1155.28,0.1,3119.25
+2026-05-26,Mouse,CDMX,Sitio web,4.0,611.36,0.0,2445.45
+2026-05-26,Audífonos,CDMX,Tienda física,1.0,1613.07,0.0,1613.07
+2026-05-26,Teclado,CDMX,Marketplace,1.0,1220.09,0.1,1098.08
+2026-05-27,Mouse,CDMX,Tienda física,1.0,683.36,0.0,683.36
+2026-05-27,SSD 1TB,Tijuana,Tienda física,1.0,1893.04,0.15,1609.08
+2026-05-28,Mouse,CDMX,Tienda física,2.0,684.71,0.0,1369.41
+2026-05-31,Mouse,CDMX,Sitio web,1.0,632.51,0.0,632.51
+2026-05-31,Webcam,CDMX,Sitio web,1.0,1340.35,0.05,1273.34
+2026-06-02,Memoria RAM 16GB,Puebla,Sitio web,1.0,1392.99,0.1,1253.69
+2026-06-05,SSD 1TB,Tijuana,Sitio web,1.0,2101.17,0.0,2101.17
+2026-06-06,Memoria RAM 16GB,Querétaro,Tienda física,1.0,1551.49,0.05,1473.91
+2026-06-09,Laptop,Mérida,Sitio web,1.0,18097.12,0.0,18097.12
+2026-06-09,Audífonos,CDMX,Sitio web,1.0,1733.6,0.0,1733.6
+2026-06-22,Teclado,Monterrey,Sitio web,3.0,1056.91,0.05,3012.19
+2026-06-25,Audífonos,CDMX,Sitio web,1.0,1828.79,0.05,1737.35
+2026-06-29,Monitor,Tijuana,Sitio web,1.0,5415.35,0.0,5415.35
+2026-07-01,Mouse,Puebla,Sitio web,1.0,728.39,0.0,728.39
+2026-07-01,Teclado,Guadalajara,Sitio web,3.0,1054.89,0.15,ERROR
+2026-07-05,Laptop,CDMX,Marketplace,1.0,17874.29,0.0,17874.29
+2026-07-05,Laptop,Tijuana,Marketplace,2.0,17311.64,0.0,34623.28
+2026-07-08,Monitor,Guadalajara,Sitio web,2.0,5086.89,0.0,10173.78
+2026-07-10,Audífonos,Querétaro,Tienda física,1.0,1885.64,0.0,1885.64
+2026-07-10,Audífonos,Guadalajara,Tienda física,1.0,1818.42,0.0,1818.42
+2026-07-10,SSD 1TB,Guadalajara,Marketplace,1.0,1980.68,0.1,1782.61
+2026-07-11,Teclado,Mérida,Tienda física,1.0,1186.5,0.1,1067.85
+2026-07-14,Teclado,CDMX,Sitio web,1.0,1167.81,0.1,1051.03
+2026-07-15,Audífonos,Puebla,Sitio web,1.0,1857.83,0.05,1764.94
+2026-07-16,Audífonos,Guadalajara,Sitio web,3.0,1772.99,0.0,5318.96
+2026-07-17,Monitor,Querétaro,Sitio web,4.0,4857.47,0.0,19429.87
+2026-07-17,Teclado,Guadalajara,Marketplace,1.0,1152.56,0.0,1152.56
+2026-07-18,SSD 1TB,Guadalajara,Sitio web,2.0,2050.92,0.1,3691.66
+2026-07-18,Mouse,CDMX,Sitio web,2.0,683.04,0.0,1366.07
+2026-07-19,Laptop,Guadalajara,Sitio web,5.0,18933.18,0.0,94665.91
+2026-07-20,Teclado,Puebla,Tienda física,2.0,1166.34,0.15,1982.78
+2026-07-20,Audífonos,Guadalajara,Marketplace,2.0,1682.13,0.0,3364.26
+2026-07-20,SSD 1TB,CDMX,Tienda física,1.0,1909.48,0.05,1814.0
+2026-07-21,Audífonos,CDMX,Tienda física,1.0,1681.06,0.0,1681.06
+2026-07-24,Webcam,Tijuana,Sitio web,1.0,1294.04,0.0,1294.04
+2026-07-24,Memoria RAM 16GB,Tijuana,Sitio web,1.0,1457.96,0.1,1312.16
+2026-07-26,SSD 1TB,Puebla,Sitio web,1.0,1944.52,0.0,1944.52
+2026-07-26,Mouse,Monterrey,Marketplace ,1.0,652.11,0.0,652.11
+2026-07-28,Audífonos,CDMX,Tienda física,3.0,1830.57,0.0,5491.7
+2026-07-28,Mouse,Puebla,Sitio web,1.0,685.02,0.15,582.27
+2026-07-29,Audífonos,Guadalajara,Tienda física,1.0,1895.48,0.0,1895.48
+2026-07-29,Monitor,Guadalajara,Tienda física,1.0,5055.83,0.15,4297.45
+2026-07-31,SSD 1TB,Monterrey,Tienda física,1.0,1993.54,0.05,1893.87
+2026-08-01,Mouse,Guadalajara,Tienda física,2.0,693.75,0.05,1318.13
+2026-08-03,Monitor,Guadalajara,Sitio web,2.0,5068.08,0.0,10136.17
+2026-08-04,Audífonos,Guadalajara,Marketplace,1.0,1852.11,0.05,1759.51
+2026-08-10,Teclado,Monterrey,Marketplace,2.0,1185.72,0.0,2371.44
+2026-08-16,Monitor,Mérida,Marketplace,2.0,4886.83,0.05,9284.97
+2026-08-24,SSD 1TB,Monterrey,Marketplace,1.0,1824.34,0.15,1550.69
+2026-08-24,Teclado,CDMX,Marketplace,2.0,1056.81,0.05,2007.94
+2026-08-27,Laptop,Monterrey,Tienda física,3.0,16687.86,0.1,45057.22
+2026-08-28,SSD 1TB,Mérida,Tienda física,2.0,2120.56,0.0,4241.11
+2026-08-30,Mouse,Mérida,Sitio web,1.0,686.56,0.0,686.56
+2026-08-30,Monitor,Tijuana,Tienda física,2.0,4595.93,0.05,8732.27
+2026-08-31,Teclado,Mérida,Marketplace,1.0,1011.29,0.05,960.72
+2026-08-31,Memoria RAM 16GB,CDMX,Sitio web,2.0,1536.15,0.05,2918.68

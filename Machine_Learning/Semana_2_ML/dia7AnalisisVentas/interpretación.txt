@@ -1,0 +1,21 @@
+¿El modelo funciona?
+
+MAE:
+
+¿Qué significa?
+
+MSE:
+
+¿Qué significa?
+
+R²:
+
+¿Qué significa?
+
+¿Las predicciones están cerca de los valores reales?
+
+¿Los residuos muestran algún patrón?
+
+¿Consideraría este modelo suficientemente bueno para este problema?
+
+¿Por qué?

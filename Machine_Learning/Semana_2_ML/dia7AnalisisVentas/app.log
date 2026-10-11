@@ -1,0 +1,211 @@
+2026-10-11 01:36:35,520 - src.services.analizadorDatos - INFO - Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:36:36,649 - src.services.analizadorDatos - INFO - Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:50:08,765 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:50:11,154 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:50:11,156 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 10 filas. 
+2026-10-11 01:50:44,206 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:50:44,220 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:50:44,240 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 10 filas. 
+2026-10-11 01:51:32,593 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:51:32,605 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:51:32,613 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:52:10,737 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:52:10,748 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:52:10,761 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:54:14,684 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:54:14,698 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:54:14,708 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:55:58,046 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:55:58,057 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:55:58,063 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:55:58,065 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 01:56:53,651 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:56:53,664 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:56:53,667 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:56:53,668 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 01:56:53,682 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:57:20,492 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:57:20,504 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:57:20,512 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:57:20,515 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:57:20,515 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 01:57:20,519 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:58:53,029 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:58:53,039 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:58:53,046 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:58:53,049 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:58:53,050 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 01:58:53,053 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:58:53,065 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 01:59:28,359 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 01:59:28,370 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:59:28,377 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 01:59:28,382 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 01:59:28,383 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 01:59:28,387 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 01:59:28,398 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 02:08:54,857 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 02:08:54,866 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:08:54,874 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 02:08:54,878 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 02:08:54,879 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 02:08:54,882 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:08:54,893 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 02:09:39,648 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 02:09:39,667 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:09:39,679 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 02:09:39,684 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 02:09:39,685 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 02:09:39,690 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:09:39,701 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 02:10:38,278 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 02:10:38,290 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:10:38,298 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 02:10:38,301 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 02:10:38,302 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 02:10:38,305 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:10:38,319 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 02:11:08,742 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 02:11:08,752 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:11:08,759 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 02:11:08,762 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 02:11:08,763 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 02:11:08,766 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 02:11:08,775 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 02:11:08,958 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 04:08:30,777 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 04:08:30,788 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 04:08:30,791 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 04:09:25,479 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 04:09:25,496 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 04:09:25,502 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 04:58:45,127 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 04:59:59,740 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 04:59:59,756 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 04:59:59,762 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:04:28,037 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:05:24,413 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:07:01,710 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:16:34,160 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:16:35,924 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:16:35,941 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:17:17,701 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:17:17,718 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:17:17,726 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:20:55,461 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:21:24,636 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:21:24,649 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:21:24,654 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:24:29,859 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:24:29,872 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:24:29,876 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:24:29,883 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:24:29,884 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:24:29,896 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:24:31,138 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:25:51,581 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:25:51,593 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:25:51,598 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:25:51,605 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:25:51,606 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:25:51,615 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:25:51,730 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:28:09,678 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:28:09,689 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:28:09,693 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:28:09,697 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:28:09,698 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:28:09,708 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:28:09,826 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:28:09,833 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:30:28,867 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:30:28,881 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:30:28,886 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:30:28,891 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:30:28,892 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:30:28,902 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:30:29,014 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:30:29,015 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:30:29,016 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:31:56,199 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:31:56,211 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:31:56,216 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:31:56,221 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:31:56,222 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:31:56,231 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:31:56,393 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:31:56,395 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:31:56,396 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:35:59,306 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:35:59,318 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:35:59,322 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:35:59,327 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:35:59,327 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:35:59,336 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:35:59,480 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:35:59,483 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:35:59,484 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:35:59,487 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:35:59,488 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-11 05:38:57,578 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:38:57,592 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:38:57,596 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:38:57,600 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:38:57,601 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:38:57,610 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:38:57,723 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:38:57,725 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:38:57,726 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:38:57,729 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:38:57,729 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-11 05:42:55,744 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:42:55,769 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:42:55,773 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:42:55,777 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:42:55,777 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:42:55,786 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:42:55,903 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:42:55,906 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:42:55,907 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:42:55,910 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:42:55,910 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-11 05:44:54,148 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:44:54,170 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:44:54,179 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:44:54,190 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:44:54,191 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:44:54,227 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:44:54,512 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:44:54,516 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:44:54,517 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:44:54,526 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:44:54,527 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-11 05:47:25,219 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:47:25,234 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:47:25,239 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:47:25,244 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:47:25,245 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:47:25,254 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:47:25,398 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:47:25,400 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:47:25,401 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:47:25,404 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:47:25,405 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-11 05:50:23,110 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:50:23,130 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:50:23,138 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:50:23,145 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:50:23,146 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:50:23,155 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:50:23,271 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:52:07,280 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-11 05:52:07,296 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-11 05:52:07,302 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-11 05:52:07,307 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-11 05:52:07,308 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-11 05:52:07,317 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-11 05:52:07,431 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-11 05:52:07,433 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-11 05:52:07,433 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-11 05:52:07,443 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-11 05:52:07,444 - src.services.analizadorModelo - INFO - Se entreno el modelo

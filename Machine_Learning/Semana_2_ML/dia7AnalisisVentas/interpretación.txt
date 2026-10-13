@@ -1,21 +1,35 @@
-¿El modelo funciona?
+¿El modelo funciona? Si, pero tiene un desbalance debido a los outlines. 
+Solución, quitar los valores arriba de 5000-6000 o usar un modelo de logaritmo
 
 MAE:
 
-¿Qué significa?
+¿Qué significa? Mide el error promedio de cada valor, en este caso ventas, así se sabe por cuanto fue el error en las ventas(este  caso)
+El cual fue de:MAE:3710.707
+Algo alto gracias a los outlines. 
 
-MSE:
+MSE¿Qué significa?
+ Igual mide el promedio de cada error solo que lo multiplica al cuadrado, esto hace que se perciban mas los outlines. 
+MSE:53106702.413
+Bastante bastante alto, nos confirma lo que ya sabiamos
 
-¿Qué significa?
 
 R²:
-
 ¿Qué significa?
+El R^2 nos dice que tan eficiente es nuestro modelo al hacer predicciones, 1 es perfecto(muy raro, seguramente hay un error)
+0 es que puede hacer los mismo que el promedio y menor a eso es malisimo. 
+En este caso tuvo un valor de:
+R²:70.585
+Esto nos dice que no pudo eliminar el 30% de ruido esto por los outlines o por la falta de variables. 
 
 ¿Las predicciones están cerca de los valores reales?
+No del todo, a pesar que el modelo tuvo un nivel de predicción del 70% que no esta del todo mal, tuvo una diferencia con los valores 
+reales de casí 4000
 
 ¿Los residuos muestran algún patrón?
+Si como se había dicho, los residuos llegan a perder precisión cuando se trata de valores grandes. 
+De la misma manera hay una tendencía a los números negativos(decendente).
 
-¿Consideraría este modelo suficientemente bueno para este problema?
+¿Consideraría este modelo suficientemente bueno para este problema?¿Por qué?
+No, si fuera una emergencía modificaria los datos, eliminando los outlines pero no estaría mal probar otro modelo 
+como el logarimico. 
 
-¿Por qué?

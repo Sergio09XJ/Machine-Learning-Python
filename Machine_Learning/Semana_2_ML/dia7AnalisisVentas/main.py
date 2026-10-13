@@ -3,6 +3,7 @@ from src.services.analizadorDatos import paraDataFrame, limpiezaDatos, primerasF
 from src.services.analizadorGrafico import realVSpredicho, graficaResiduos
 from src.services.analizadorModelo import preparaciónTrainyTest, separacionDatos, generacionModelo, entrenamiento, coef_intercepto, prediccion, analisisGeneral
 from pathlib import Path
+import pandas as pd
 import time 
 
 
@@ -35,27 +36,45 @@ def main():
     resumenEstadistico(tabla)
     histogramaDeVentas(tabla)
 
+    ventasAltas = tabla[tabla["Ventas"] >= 5000]
+
+    print(f"Imprimimos las ventas altas(outliners): \n {ventasAltas}")
+
     #Separamos en los datos de entrenamiento(features) y el target
     X, y  = separacionDatos(tabla)
 
     #Separamos para features de entrenamiento y prueba así como target de entrenamiento y prueba. 
-    X_train, y_train, X_test, y_test = preparaciónTrainyTest(X, y)
+    X_train, X_test, y_train, y_test = preparaciónTrainyTest(X, y)
 
     #Instancia del modelo 
     modelo = generacionModelo()
     #Entrenamiento del modelo 
     modelo = entrenamiento(X_train, y_train, modelo)
 
-    """
-    coef, intecepto = coef_intercepto(modelo)
+    #Conocemos los valores de cambio de cada X así como el valor base cuando X es 0. 
+    coef, intercepto = coef_intercepto(modelo)
 
-    print(f"\nImprimimos el valor de y cuando las X son 0: {intecepto}")
-    print(f"\nImprimimos la taza de cambio por cada valor X: {coef}")
+    tabla_coeficientes = pd.DataFrame({
+        "Variable" : X.columns , 
+        "Impacto de ventas" : coef 
+    })
+    #Imprimimos los datos. 
+    print(f"\nImprimimos el valor de y cuando las X son 0: {intercepto}")
+    print(f"\nImprimimos el cambio de cada variable de X con el nombre de esta: ")
+    print(f"{tabla_coeficientes}")
 
-    y_sombrero = prediccion(X_test)
+    #Predecimos. 
+    y_sombrero = prediccion(X_test, modelo)
+    print(f"\nValores de Venta predichos: {y_sombrero[:30]}")
+    print(f"\nValores de Venta test: {y_test[:30]}")
 
+    #Mostramos el analisis general. 
     analisisGeneral(y_test, y_sombrero)
-    """
+
+    #Mostramos las graficas para conocer la exactitud del modelo. 
+    realVSpredicho(y_test, y_sombrero)
+    graficaResiduos(y_test, y_sombrero)
+    
 
 
 main()

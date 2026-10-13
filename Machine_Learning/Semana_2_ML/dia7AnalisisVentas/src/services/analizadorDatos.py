@@ -4,6 +4,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from datetime import datetime
 from src.utils.logger import obtener_logger
+from pathlib import Path
+
+raiz_proyecto = Path(__file__).resolve().parent.parent.parent
+ruta_guardado = raiz_proyecto / "ResultadosGraficas" / "HistogramaVentas.png"
 
 
 logger = obtener_logger(__name__)
@@ -73,10 +77,7 @@ def limpiezaDatos(tablaDatos):
    return tablaDatos
 
 def primerasFilas(tabla):
-   # Muestra todas las columnas horizontalmente sin truncar
-   pd.set_option('display.max_columns', None)
-    # Evita que se rompa la tabla en múltiples líneas por la anchura de la consola
-   pd.set_option('display.width', 1000) 
+   
    print("\nPrimeras 5 filas de la tabla:")
    print(f"\n{tabla.head()}")
    logger.info("analizador Grafico | Se mostraron las primeras 5 filas. ")
@@ -102,5 +103,6 @@ def histogramaDeVentas(tabla):
    plt.title("Comportamiento de las ventas")
    plt.xlabel("Monto de la Venta")
    plt.ylabel("Frecuencia de la Venta")
-   plt.savefig("histograma.png")
+   plt.savefig(ruta_guardado, dpi=300, bbox_inches='tight')
+   plt.close()
    logger.info("analizador Grafico | Mostramos el histograma de Ventas. ")

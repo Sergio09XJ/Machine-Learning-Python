@@ -1,7 +1,7 @@
 
 from src.services.analizadorDatos import paraDataFrame, limpiezaDatos, primerasFilas, dimension, infoTabla, resumenEstadistico, histogramaDeVentas
 from src.services.analizadorGrafico import realVSpredicho, graficaResiduos
-from src.services.analizadorModelo import preparaciónTrainyTest, separacionDatos, generacionModelo, entrenamiento, coef_intercepto, prediccion, analisisGeneral
+from src.services.analizadorModelo import preparaciónTrainyTest, separacionDatos, generacionModelo, entrenamiento, coef_intercepto, prediccion, analisisGeneral, escalaciónDatos
 from pathlib import Path
 import pandas as pd
 import time 
@@ -27,10 +27,9 @@ def main():
 
     #Creación y limpieza de la tabla
     tabla = paraDataFrame(csv_pathDos)
-    print(tabla)
+    #print(tabla)
     
     tabla = limpiezaDatos(tabla)
-    print(set(tabla))
 
     #Analisis de datos de la tabla 
     primerasFilas(tabla)
@@ -39,15 +38,17 @@ def main():
     resumenEstadistico(tabla)
     histogramaDeVentas(tabla)
 
-    ventasAltas = tabla[tabla["Ventas"] >= 5000]
+    #tabla = tabla[tabla["Ventas"] <= 5000]
 
-    print(f"Imprimimos las ventas altas(outliners): \n {ventasAltas}")
+    #print(f"Imprimimos las ventas altas(outliners): \n {ventasAltas}")
 
     #Separamos en los datos de entrenamiento(features) y el target
     X, y  = separacionDatos(tabla)
 
     #Separamos para features de entrenamiento y prueba así como target de entrenamiento y prueba. 
     X_train, X_test, y_train, y_test = preparaciónTrainyTest(X, y)
+
+    X_train, X_test = escalaciónDatos(X_train, X_test)
 
     #Instancia del modelo 
     modelo = generacionModelo()

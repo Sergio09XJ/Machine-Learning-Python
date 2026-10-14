@@ -55,3 +55,7 @@ como el logarimico.
 Si, el problema fueron los datos que no estaban del todo ordenados, limpios y filtrados, y actualmente hay outlines entonces si considero que 
 el modelo es bueno para este trabajo. 
 
+-----------------------
+analísis final: 
+#Este modelo no es suficiente, no porque sea malo, si no porque no es necesario
+Se puede obtener los datos de las ventas con operaciones matemáticas, comunes. 

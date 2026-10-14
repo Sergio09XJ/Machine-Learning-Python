@@ -50,31 +50,30 @@ def limpiezaDatos(tablaDatos):
       
    tablaDatos["Cantidad"] =  pd.to_numeric(tablaDatos["Cantidad"], errors= "coerce")
    tablaDatos["Cantidad"] = tablaDatos["Cantidad"].abs()
-   medianaCant = np.nanmedian(tablaDatos["Cantidad"])
-   tablaDatos["Cantidad"] = tablaDatos["Cantidad"].fillna(medianaCant)
+   tablaDatos = tablaDatos.dropna(subset=["Cantidad"])
+
+   print(tablaDatos[tablaDatos["Cantidad"] < 0])
    
    # ----------- Precio_Unitario -----------------------------------------------
       
    tablaDatos["Precio_Unitario"] = pd.to_numeric(tablaDatos["Precio_Unitario"], errors= "coerce")
+   tablaDatos = tablaDatos.dropna(subset=["Precio_Unitario"])
    tablaDatos["Precio_Unitario"] = tablaDatos["Precio_Unitario"].abs()
-   medianaPrecio = np.nanmedian(tablaDatos["Precio_Unitario"])
-   tablaDatos["Precio_Unitario"] = tablaDatos["Precio_Unitario"].fillna(medianaPrecio)
 
 
    # ----------- Descuento -----------------------------------------------
       
    tablaDatos["Descuento"] = pd.to_numeric(tablaDatos["Descuento"], errors="coerce")
-   tablaDatos["Descuento"] = tablaDatos["Descuento"].abs()
-   medianaDes = np.nanmedian(tablaDatos["Descuento"])
-   tablaDatos.loc[tablaDatos["Descuento"] > 1, "Descuento"] = medianaDes
-   tablaDatos["Descuento"] = tablaDatos["Descuento"].fillna(medianaDes)
+   tablaDatos = tablaDatos.dropna(subset=["Descuento"])
+ 
+
    
    # ----------- Ventas -----------------------------------------------
       
    tablaDatos["Ventas"] = pd.to_numeric(tablaDatos["Ventas"], errors="coerce")
+   tablaDatos = tablaDatos.dropna(subset=["Ventas"])
    tablaDatos["Ventas"] = tablaDatos["Ventas"].abs()
-   medianaVent = np.nanmedian(tablaDatos["Ventas"])
-   tablaDatos["Ventas"] = tablaDatos["Ventas"].fillna(medianaVent)
+   
 
    # ----------- SubTotal -----------------------------------------------
    tablaDatos["SubTotal"] = tablaDatos["Cantidad"] * tablaDatos["Precio_Unitario"]

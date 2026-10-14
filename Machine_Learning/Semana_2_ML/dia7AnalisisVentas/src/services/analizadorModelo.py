@@ -1,5 +1,6 @@
 from sklearn.model_selection import train_test_split #Divide X y "y" para ejecución y test 
 from sklearn.linear_model import LinearRegression #Modelo de Regression
+from sklearn.preprocessing import  StandardScaler 
 #nos permite hacer un analisis del modelo 
 from sklearn.metrics import (r2_score, mean_squared_error, mean_absolute_error)
 from math import sqrt
@@ -22,6 +23,13 @@ def preparaciónTrainyTest(X, y):
     #X_train, X_test, y_train, y_test
     logger.info("Separación de datos para el entrenamiento y la prueba.")
     return train_test_split(X, y, test_size=0.4, random_state=42)
+
+def escalaciónDatos(X_train, X_test): 
+   escalador = StandardScaler()
+
+   X_train = escalador.fit_transform(X_train)
+   X_test = escalador.transform(X_test)
+   return X_train, X_test
 
 def generacionModelo():
     logger.info("Creación de la instancia del modelo de regresion")

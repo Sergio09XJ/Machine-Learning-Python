@@ -765,3 +765,134 @@
 2026-10-13 23:53:32,784 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
 2026-10-13 23:53:33,867 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
 2026-10-13 23:53:34,833 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.
+2026-10-14 01:14:48,215 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:14:48,251 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:14:48,260 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:14:48,266 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:14:48,266 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:14:48,275 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:14:48,526 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:15:00,356 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:15:00,384 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:15:00,396 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:15:00,400 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:15:00,402 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:15:00,410 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:15:00,634 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:15:00,637 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 01:15:00,638 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 01:15:00,650 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 01:15:00,651 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 01:15:00,673 - src.services.analizadorModelo - INFO - Se retorno el valor de cambio entre cada X(coef) y el valor cuando x vale 0(intercept).
+2026-10-14 01:15:00,677 - src.services.analizadorModelo - INFO - Se hizo la predicción del modelo
+2026-10-14 01:15:00,679 - src.services.analizadorModelo - INFO - Se hizo el MAE
+2026-10-14 01:15:00,680 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:15:00,681 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:15:00,682 - src.services.analizadorModelo - INFO - Se  el analisis R2
+2026-10-14 01:15:00,683 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
+2026-10-14 01:15:00,870 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
+2026-10-14 01:15:01,072 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.
+2026-10-14 01:24:39,350 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:24:39,419 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:24:39,447 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:24:39,460 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:24:39,462 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:24:39,484 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:24:39,913 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:24:39,915 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 01:24:39,917 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 01:24:39,925 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 01:24:39,927 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 01:24:39,944 - src.services.analizadorModelo - INFO - Se retorno el valor de cambio entre cada X(coef) y el valor cuando x vale 0(intercept).
+2026-10-14 01:24:39,951 - src.services.analizadorModelo - INFO - Se hizo la predicción del modelo
+2026-10-14 01:24:39,955 - src.services.analizadorModelo - INFO - Se hizo el MAE
+2026-10-14 01:24:39,957 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:24:39,959 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:24:39,962 - src.services.analizadorModelo - INFO - Se  el analisis R2
+2026-10-14 01:24:39,964 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
+2026-10-14 01:24:40,421 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
+2026-10-14 01:24:40,728 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.
+2026-10-14 01:41:09,718 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:42:16,488 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:43:44,089 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:44:14,674 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:45:02,383 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:45:02,411 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:45:02,422 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:45:02,428 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:45:02,429 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:45:02,439 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:45:02,683 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:45:02,684 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 01:45:02,684 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 01:45:02,689 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 01:45:02,689 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 01:47:55,281 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:47:55,304 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:47:55,313 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:47:55,317 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:47:55,318 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:47:55,327 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:47:55,734 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:47:55,737 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 01:47:55,737 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 01:47:55,743 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 01:47:55,745 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 01:47:55,765 - src.services.analizadorModelo - INFO - Se retorno el valor de cambio entre cada X(coef) y el valor cuando x vale 0(intercept).
+2026-10-14 01:47:55,773 - src.services.analizadorModelo - INFO - Se hizo la predicción del modelo
+2026-10-14 01:47:55,777 - src.services.analizadorModelo - INFO - Se hizo el MAE
+2026-10-14 01:47:55,779 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:47:55,781 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:47:55,782 - src.services.analizadorModelo - INFO - Se  el analisis R2
+2026-10-14 01:47:55,784 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
+2026-10-14 01:47:56,153 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
+2026-10-14 01:47:56,824 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.
+2026-10-14 01:56:33,449 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 01:56:33,475 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 01:56:33,485 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 01:56:33,489 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 01:56:33,490 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 01:56:33,498 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 01:56:33,723 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 01:56:33,725 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 01:56:33,726 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 01:56:33,743 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 01:56:33,745 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 01:56:33,747 - src.services.analizadorModelo - INFO - Se retorno el valor de cambio entre cada X(coef) y el valor cuando x vale 0(intercept).
+2026-10-14 01:56:33,751 - src.services.analizadorModelo - INFO - Se hizo la predicción del modelo
+2026-10-14 01:56:33,753 - src.services.analizadorModelo - INFO - Se hizo el MAE
+2026-10-14 01:56:33,754 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:56:33,754 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 01:56:33,755 - src.services.analizadorModelo - INFO - Se  el analisis R2
+2026-10-14 01:56:33,756 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
+2026-10-14 01:56:33,936 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
+2026-10-14 01:56:34,157 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.
+2026-10-14 02:18:31,616 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:18:31,653 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 02:19:01,324 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:19:01,357 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 02:20:05,657 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:20:05,681 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 02:21:03,901 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:22:18,275 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:22:18,306 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 02:22:37,172 - src.services.analizadorDatos - INFO - analizador Grafico | Se hizo la conversión de csv a un DataFrame.
+2026-10-14 02:22:37,191 - src.services.analizadorDatos - INFO - analizador Grafico | Se limpio el dataframe de datos erroneos. 
+2026-10-14 02:22:37,203 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostraron las primeras 5 filas. 
+2026-10-14 02:22:37,210 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro información de la tabla. 
+2026-10-14 02:22:37,210 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro la dimensión de la tabla. 
+2026-10-14 02:22:37,221 - src.services.analizadorDatos - INFO - analizador Grafico | Se mostro el resumen estadistico de la tabla. 
+2026-10-14 02:22:37,510 - src.services.analizadorDatos - INFO - analizador Grafico | Mostramos el histograma de Ventas. 
+2026-10-14 02:22:37,511 - src.services.analizadorModelo - INFO - Separación del target y los features
+2026-10-14 02:22:37,512 - src.services.analizadorModelo - INFO - Separación de datos para el entrenamiento y la prueba.
+2026-10-14 02:22:37,531 - src.services.analizadorModelo - INFO - Creación de la instancia del modelo de regresion
+2026-10-14 02:22:37,531 - src.services.analizadorModelo - INFO - Se entreno el modelo
+2026-10-14 02:22:37,537 - src.services.analizadorModelo - INFO - Se retorno el valor de cambio entre cada X(coef) y el valor cuando x vale 0(intercept).
+2026-10-14 02:22:37,541 - src.services.analizadorModelo - INFO - Se hizo la predicción del modelo
+2026-10-14 02:22:37,542 - src.services.analizadorModelo - INFO - Se hizo el MAE
+2026-10-14 02:22:37,543 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 02:22:37,544 - src.services.analizadorModelo - INFO - Se hizo el MSE
+2026-10-14 02:22:37,545 - src.services.analizadorModelo - INFO - Se  el analisis R2
+2026-10-14 02:22:37,546 - src.services.analizadorModelo - INFO - Se hizo la tabla de errores 
+2026-10-14 02:22:37,818 - src.services.analizadorGrafico - INFO - Creación de la tabla real vs predicho.
+2026-10-14 02:22:38,036 - src.services.analizadorGrafico - INFO - Creación de la tabla diferencia entre y_test y _sombrero.

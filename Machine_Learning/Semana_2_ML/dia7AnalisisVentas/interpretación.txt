@@ -1,16 +1,26 @@
 ¿El modelo funciona? Si, pero tiene un desbalance debido a los outlines. 
 Solución, quitar los valores arriba de 5000-6000 o usar un modelo de logaritmo
+Correción después de limpieza y EDA_
+El modelo si funciona de hecho tiene un R^2 alto, aun se puede mejorar por los outlines 
+pero después de una analísis mas profundo de datos si es mucho mejor. 
 
 MAE:
 
 ¿Qué significa? Mide el error promedio de cada valor, en este caso ventas, así se sabe por cuanto fue el error en las ventas(este  caso)
 El cual fue de:MAE:3710.707
 Algo alto gracias a los outlines. 
+Correción después de limpieza y EDA_
+Después bajo considerablemente a MAE:822.006
 
 MSE¿Qué significa?
  Igual mide el promedio de cada error solo que lo multiplica al cuadrado, esto hace que se perciban mas los outlines. 
 MSE:53106702.413
 Bastante bastante alto, nos confirma lo que ya sabiamos
+Correción después de limpieza y EDA_
+Aunque se mantiene relativamente alto es mucho menor al anterior: 
+MSE:1615256.512
+
+
 
 
 R²:
@@ -20,16 +30,28 @@ El R^2 nos dice que tan eficiente es nuestro modelo al hacer predicciones, 1 es 
 En este caso tuvo un valor de:
 R²:70.585
 Esto nos dice que no pudo eliminar el 30% de ruido esto por los outlines o por la falta de variables. 
+Correción después de limpieza y EDA_
+R²:99.105
+Es casí perfecto, no es 1 por lo que podemos decir que es raro que los datos no se esten interpretando bien pero si es alto
+para decir que el modelo lo hace bien(se multiplco por 100 para tener una mejor lectura. )
 
 ¿Las predicciones están cerca de los valores reales?
 No del todo, a pesar que el modelo tuvo un nivel de predicción del 70% que no esta del todo mal, tuvo una diferencia con los valores 
 reales de casí 4000
+Correción después de limpieza y EDA_
+Si lo estan, aun hay ciertas discrepancias, directamente puedo decir que por los outlines pero es considerablemente mas bajo. 
 
 ¿Los residuos muestran algún patrón?
 Si como se había dicho, los residuos llegan a perder precisión cuando se trata de valores grandes. 
 De la misma manera hay una tendencía a los números negativos(decendente).
+Correción después de limpieza y EDA_
+Si, se agrupan mientras mas alto es el valor menor precisión tienen. esto se puede corregir con los outlines o usando otro modelo. 
+Como el logaritmico. 
+
 
 ¿Consideraría este modelo suficientemente bueno para este problema?¿Por qué?
 No, si fuera una emergencía modificaria los datos, eliminando los outlines pero no estaría mal probar otro modelo 
 como el logarimico. 
+Si, el problema fueron los datos que no estaban del todo ordenados, limpios y filtrados, y actualmente hay outlines entonces si considero que 
+el modelo es bueno para este trabajo. 
 

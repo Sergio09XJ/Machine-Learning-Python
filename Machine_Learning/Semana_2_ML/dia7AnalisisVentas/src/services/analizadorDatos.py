@@ -19,27 +19,32 @@ def paraDataFrame(tabla_csv):
 def limpiezaDatos(tablaDatos): 
    
    # ----------- Fecha --------------------------------------------------
-   tablaDatos["Fecha"] = pd.to_datetime(tablaDatos["Fecha"], format="mixted", errors="coerce")
+   tablaDatos["Fecha"] = pd.to_datetime(tablaDatos["Fecha"], format="mixed", errors="coerce")
+
    tablaDatos["Fecha"] = tablaDatos["Fecha"].fillna(datetime.now())
    tablaDatos["Fecha"] = pd.to_datetime(tablaDatos["Fecha"])
 
    tablaDatos["Mes"] = tablaDatos["Fecha"].dt.month
    tablaDatos["Dia"] = tablaDatos["Fecha"].dt.day
+   tablaDatos = tablaDatos.drop(columns=["Fecha"], errors="ignore")
 
    # ----------- Producto -----------------------------------------------
 
+   tablaDatos["Producto"] = tablaDatos["Producto"].replace("Memoria RAM 16 GB","Memoria RAM 16GB")
+   tablaDatos["Producto"] = tablaDatos["Producto"].replace("Laptop ","Laptop")
    tablaDatos["Producto"] = tablaDatos["Producto"].astype("string")
-   tablaDatos["Producto"] = tablaDatos["Producto"].fillna("Sin Informacion")
 
    # ----------- Ciudad -----------------------------------------------
    
-   tablaDatos["Ciudad"] = tablaDatos["Ciudad"].astype("string")
-   tablaDatos["Ciudad"] = tablaDatos["Ciudad"].fillna("Sin Ciudad")
+   tablaDatos["Ciudad"] = tablaDatos["Ciudad"].astype(str).str.strip()
+   tablaDatos["Ciudad"] = tablaDatos["Ciudad"].replace("Guadalajra", "Guadalajara")
+
 
    # ----------- Canal -----------------------------------------------
    
-   tablaDatos["Canal"] = tablaDatos["Canal"].astype("string")
-   tablaDatos["Canal"] = tablaDatos["Canal"].fillna("Sin Informacion")
+   tablaDatos["Canal"] = tablaDatos["Canal"].astype(str).str.strip()
+   tablaDatos["Canal"] = tablaDatos["Canal"].str.capitalize()
+   tablaDatos["Canal"] = tablaDatos["Canal"].replace("Tienda fisica","Tienda física")
 
    # ----------- Cantidad -----------------------------------------------
       
@@ -48,7 +53,7 @@ def limpiezaDatos(tablaDatos):
    medianaCant = np.nanmedian(tablaDatos["Cantidad"])
    tablaDatos["Cantidad"] = tablaDatos["Cantidad"].fillna(medianaCant)
    
-   # ----------- Canal -----------------------------------------------
+   # ----------- Precio_Unitario -----------------------------------------------
       
    tablaDatos["Precio_Unitario"] = pd.to_numeric(tablaDatos["Precio_Unitario"], errors= "coerce")
    tablaDatos["Precio_Unitario"] = tablaDatos["Precio_Unitario"].abs()
@@ -61,6 +66,7 @@ def limpiezaDatos(tablaDatos):
    tablaDatos["Descuento"] = pd.to_numeric(tablaDatos["Descuento"], errors="coerce")
    tablaDatos["Descuento"] = tablaDatos["Descuento"].abs()
    medianaDes = np.nanmedian(tablaDatos["Descuento"])
+   tablaDatos.loc[tablaDatos["Descuento"] > 1, "Descuento"] = medianaDes
    tablaDatos["Descuento"] = tablaDatos["Descuento"].fillna(medianaDes)
    
    # ----------- Ventas -----------------------------------------------
@@ -70,8 +76,13 @@ def limpiezaDatos(tablaDatos):
    medianaVent = np.nanmedian(tablaDatos["Ventas"])
    tablaDatos["Ventas"] = tablaDatos["Ventas"].fillna(medianaVent)
 
-   #Convertimos a valores númericos para su entrenamiento en el modelo de regressión. 
-   tablaDatos = pd.get_dummies(tablaDatos, columns=["Producto","Ciudad", "Canal"], drop_first=True)
+   # ----------- SubTotal -----------------------------------------------
+   tablaDatos["SubTotal"] = tablaDatos["Cantidad"] * tablaDatos["Precio_Unitario"]
+   tablaDatos = tablaDatos.drop(columns=["Precio_Unitario", "Cantidad"], errors="ignore")
+
+   #Convertimos a valores binarios los datos para su entrenamiento en el modelo de regressión. 
+   #drop_fisrt elimina una columna ya que se vuelve redundante, si se tiene que en todas es 0 entonces es porque esta en la otra. 
+   tablaDatos = pd.get_dummies(tablaDatos, columns=["Producto","Ciudad", "Canal"], drop_first=True, dummy_na=False)
 
    logger.info("analizador Grafico | Se limpio el dataframe de datos erroneos. ")
    return tablaDatos

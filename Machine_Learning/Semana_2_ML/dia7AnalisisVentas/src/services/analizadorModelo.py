@@ -12,7 +12,7 @@ import numpy as np
 logger = obtener_logger(__name__)
 
 def separacionDatos(tablaDatos):
-    X = tablaDatos.drop(columns=["Ventas", "Fecha"])
+    X = tablaDatos.drop(columns=["Ventas"])
     y = np.array(tablaDatos["Ventas"])
     logger.info("Separación del target y los features")
     return X, y

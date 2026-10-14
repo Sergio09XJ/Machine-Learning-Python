@@ -27,7 +27,10 @@ def main():
 
     #Creación y limpieza de la tabla
     tabla = paraDataFrame(csv_pathDos)
+    print(tabla)
+    
     tabla = limpiezaDatos(tabla)
+    print(set(tabla))
 
     #Analisis de datos de la tabla 
     primerasFilas(tabla)
@@ -74,6 +77,7 @@ def main():
     #Mostramos las graficas para conocer la exactitud del modelo. 
     realVSpredicho(y_test, y_sombrero)
     graficaResiduos(y_test, y_sombrero)
+    
     
 
 

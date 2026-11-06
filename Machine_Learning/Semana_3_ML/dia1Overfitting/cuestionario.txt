@@ -1,0 +1,15 @@
+¿Qué modelo presenta underfitting y por qué?
+El modelo uno; al tener tanto el entrenamiento como las pruebas MAE, MSE y r^2 igual de mal 
+esto nos dice que necesita de datos para mejorar su predicción(generalmente)
+¿Qué modelo consigue el mejor equilibrio entre aprendizaje y generalización?
+El modelo dos, usando polymorfic features con degree de 4, aunque tiene resultados similares que el uno
+Esto podría indicar que es un caso de subfitting pero en realidad no hay realidad no hay relación con los datos,
+estos fueron creados de forma aleatoriea entonces sin importar que simpre saldran mal 
+¿Qué modelo presenta overfitting? ¿Cómo lo identificaste?
+El modelo 3, este tiene una brecha grande entre el entrenamiento y la predicción con MAE, MSE Y R^2 teniendo una brecha mucho mayor
+en la predicción
+¿Por qué un error de entrenamiento bajo no garantiza buenas predicciones?
+Porque el modelo puede aprender la relación de datos mas que los patrones haciendo que la predicción sea mala. 
+¿Qué relación observaste entre la complejidad del modelo y el error de prueba?
+Mientras mayor sea el degree esto hace que la brecha entre entrenamiento y predicción sea mayor
+siempre que las columnas superen mucho a las filas peor el degree eleva la cantidad de columans de forma exponencial. 

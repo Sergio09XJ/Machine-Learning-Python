@@ -3,7 +3,7 @@
 from sklearn.model_selection import train_test_split #Para test 
 from sklearn.linear_model import LogisticRegression  #Modelo de regression
 from sklearn.ensemble import RandomForestClassifier #Modelo de arboles de decisión
-from sklearn.metrics import accuracy_score, mean_squared_error, mean_absolute_error, r2_score    #conocer la exactitud del modelo 
+from sklearn.metrics import f1_score, precision_score,recall_score, accuracy_score #Conocer la exactutud del modelo
 from src.services.analizador_Datos import toDataFrame, limpieza    # para el DataFrame de datos. 
 from sklearn.ensemble import RandomForestClassifier #Modelo de arboles de decisión
 
@@ -46,26 +46,12 @@ def entrenamiento(X_train, y_train, modelo):
 def predicción(modelo, X_test):
   return modelo.predict(X_test)
 
-
-
-def predicciónMuestra(y_test, prediccion): 
-  y_sombrero = prediccion
-  print(f"\nImprimimos y_test: {y_test} \nImprimimos y_predicción: {y_sombrero}")
-  print(f"\nImprimimos la exactitud del modelo \n {accuracy_score(y_test, y_sombrero)}")
-
-def MAE(y_sombrero, y_test): 
-  return mean_absolute_error(y_sombrero, y_test)
-
-def MSE(y_sombrero, y_test): 
-  return mean_squared_error(y_sombrero, y_test)
-
-def R_2(y_sombrero, y_test): 
-  return r2_score(y_sombrero, y_test)
-
 def evaluacion(y_sombrero, y_test): 
-  print(f"El promedio del error absuluto es: {MAE(y_sombrero, y_test)}")
-  print(f"El promedio del error absuluto al cuadrado: { MSE(y_sombrero, y_test)}")
-  print(f"El score del modelo es: {R_2(y_sombrero, y_test)}")
+    print(f"\nImprimimos y_test: {y_test} \nImprimimos y_predicción: {y_sombrero}")
+    print(f"\nImprimimos la exactitud del modelo \n {accuracy_score(y_test, y_sombrero)}")
+    print(f"Si es fraude es verdad: {precision_score(y_test, y_sombrero)}")
+    print(f"Cantidad de fraudes reales es: { recall_score(y_test, y_sombrero)}")
+    print(f"El f1 score del modelo es: {f1_score(y_test, y_sombrero)}")
 
 
 

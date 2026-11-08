@@ -1,11 +1,14 @@
 ¿Por qué no podemos utilizar Test para ajustar nuestro modelo?
-
+-Test se usa para corroborar que el modelo funcione como debe después de las modificaciones en la validación 
+Modificarlo aquí haría un data leakage
 ¿Qué diferencia existe entre Validation y Test?
-
+-Validación es para probar y modificar el modelo, Test es la prueba final para verificar que el modelo generalice bien. 
 ¿Qué sucede si entrenamos y evaluamos con los mismos datos?
-
+- Data Leakage: Esto hace que el modelo aprenda ruido y relacion en datos mas que el patron subyaciente(formula matemática), entonces no generaliza. 
 ¿Qué es Data Leakage?
-
+- Es cuando el modelo tiene acceso a datos de otras faces lo que hace que aprenda de estos datos o los interprete de otra formula rompiendo con el proposito del modelo 
+ya que no generaliza bien en base al data set que le correspondia en la face. 
 ¿Por qué utilizamos random_state?
-
+-Para hacer que se tomen los mismos datos en base a la misma cantidad al dividirlos en subconjuntos mas pequeños para el entrenamiento, validación y test. 
 ¿Qué sucede si nuestro dataset es demasiado pequeño para dividirlo en tres conjuntos?
+-Esto afecta el proceso de generalización por falta de datos por falta de datos al entrenar o falta de datos para corroborar, se puede hacer uso del cross validation aquí. 

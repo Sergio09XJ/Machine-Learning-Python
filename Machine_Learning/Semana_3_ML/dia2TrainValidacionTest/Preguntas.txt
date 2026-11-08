@@ -1,0 +1,11 @@
+¿Por qué no podemos utilizar Test para ajustar nuestro modelo?
+
+¿Qué diferencia existe entre Validation y Test?
+
+¿Qué sucede si entrenamos y evaluamos con los mismos datos?
+
+¿Qué es Data Leakage?
+
+¿Por qué utilizamos random_state?
+
+¿Qué sucede si nuestro dataset es demasiado pequeño para dividirlo en tres conjuntos?

@@ -1,0 +1,20 @@
+¿Qué modelo obtuvo el mejor resultado en Train?
+-Los 3 tuvieron el mejor resultado con un accuracy de 0.96.. para los primeros dos 
+   y 1 para el tercero con max depth(sin limites), a pesar de eso, 0.96 fue suficiente para tener 
+   1 en test y Validation para los modelos con max depth de 1 y 2, lo que los hace igual de pecisos. 
+
+¿Qué modelo obtuvo el mejor resultado en Validation?
+- Los 3, de 1. 
+
+¿En cuál aparece una diferencia más grande entre Train y Validation?
+-En el primero(depth = 1) y el segundo(depth = 2) con 0.99723 en Train y 1.0 en Validation
+
+¿Qué modelo presenta señales de overfitting?
+-Ninguno ya que el modelo fue suficiente para los datos. 
+
+¿Qué modelo presenta señales de underfitting?
+-Ninguno ya que el modelo fue suficiente para los datos. 
+
+¿Cuál parece generalizar mejor y por qué?
+- El tercero a primera vista, con accuracy de 1 en los 3. A pesar de eso diría que el primero 
+  fue el modelo mas simple con un max depth de 1 y logro generalizar bien(Entre dos modelos siempre se toma el mas simple.)

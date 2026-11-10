@@ -1,0 +1,19 @@
+¿Por qué obtuviste cinco resultados en el primer experimento?
+-Porque lo dividi en 5 folds aunque en realidad lo divide en 3 y luego 4, 10. 
+
+¿Qué cambia al utilizar diez folds?
+-La precision de los primeros dos folds baja minimamente y la varianza su minimamente. 
+ Esto porque se dividio en folds con menos filas lo que hace que el entrenamiento sea menor. 
+
+¿Cuál obtuvo mayor Accuracy promedio?
+-Todos tuvieron el mismo porcentaje, en realidad las variaciones son minimas pero siendo estricos el 4 folds. 
+
+¿Cuál presentó mayor variación entre folds?
+- El 10 por dividorlo en 10 folds y bajar la cantidad de elementos para su entrenamiento. 
+
+¿Qué significa tener una desviación estándar elevada?
+- Significa que el modelo se vuelve mas sensible a cambios en los datos nuevos. 
+
+¿Por qué Cross-validation proporciona una evaluación más robusta que una sola división Train / Validation?
+- Porque permite entrenar y testear el modelo con los datos, en diferentes configuraciones/combinaciones de estos y con todos los datos
+  del dataset, esto hace que sea mas robusto. 

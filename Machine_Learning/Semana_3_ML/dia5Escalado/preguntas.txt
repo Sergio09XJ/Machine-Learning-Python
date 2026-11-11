@@ -1,11 +1,19 @@
 ¿Qué diferencias observaste entre los valores originales y los escalados?
+- Los valores originales tuvieron un rendimiento lijeramente mayor a los escalados tanto para KNN como random forest. 
+  Esto se puede deber a que los datos no eran bastantes o por la manera de trabajo de KNN y los datos que uso. 
 
 ¿Qué diferencia existe entre normalización y estandarización?
+- La Normalización trabaja con valores entre 0 y 1 y la estandarización esta en un rango entre - y + 
+ La normalización rescala los datos para tener distancias relativas la estandarización transforma la distribución. 
 
 ¿Qué características tenían escalas considerablemente diferentes?
+- La fecha, el monto y la hora en que se hizo la transacción por dar un ejemplo. 
 
 ¿El escalado modificó el rendimiento de KNN?
+- Si si lo hizo, los dos modelos lo modificaron. 
 
 ¿Qué diferencias observaste al utilizar Decision Tree?
+- Use Random Forest y el rendimiento con este fue perfecto por su naturaleza algoritmica. 
 
 ¿Por qué debes ajustar el scaler exclusivamente con Train?
+- Para obtener Mu(el promedio de cada columna) y Sigma(la varianza de cada columna) una vez con esos valores se puede aplicar la normalización 

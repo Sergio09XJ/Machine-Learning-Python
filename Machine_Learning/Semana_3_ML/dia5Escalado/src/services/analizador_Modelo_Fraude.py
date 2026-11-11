@@ -46,17 +46,18 @@ def generacionModeloBosqueRandom(cantArbol, maxProf, cantDiv, cantHoja, features
 def generacionModeloVecinos():
    return KNeighborsClassifier()
 
-def escaladoEstadar(fit, datos): 
+def escaladoEstadar(escalaEstandar, fit, datos): 
    if fit == 1:
-      return StandardScaler.fit_transform(datos)
+      datosEscalados =  escalaEstandar.fit_transform(datos)
+      return datosEscalados
    else: 
-      return StandardScaler.transform(datos)
+      return escalaEstandar.transform(datos)
 
-def MinMaxEscalado(fit, datos): 
+def MinMaxEscalado(MinMaxEscalado, fit, datos): 
    if fit == 1:
-      return MinMaxScaler.fit_transform(datos)
+      return MinMaxEscalado.fit_transform(datos)
    else: 
-      return MinMaxScaler.transform(datos)
+      return MinMaxEscalado.transform(datos)
    
 
 def entrenamiento(X_train, y_train, modelo): 

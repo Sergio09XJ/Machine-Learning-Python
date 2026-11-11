@@ -1,0 +1,11 @@
+¿Qué diferencias observaste entre los valores originales y los escalados?
+
+¿Qué diferencia existe entre normalización y estandarización?
+
+¿Qué características tenían escalas considerablemente diferentes?
+
+¿El escalado modificó el rendimiento de KNN?
+
+¿Qué diferencias observaste al utilizar Decision Tree?
+
+¿Por qué debes ajustar el scaler exclusivamente con Train?

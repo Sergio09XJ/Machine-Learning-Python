@@ -1,0 +1,12 @@
+¿Qué problema resuelve Pipeline?
+
+¿Qué sucede cuando ejecutas fit() sobre un Pipeline?
+
+¿Qué sucede cuando ejecutas predict()?
+
+¿Por qué el escalador no debe ajustarse con Validation?
+
+¿Qué ventaja tiene combinar Pipeline con Cross-validation?
+
+¿Qué diferencias encontraste entre la implementación manual y Pipeline?
+

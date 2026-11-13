@@ -82,6 +82,8 @@ def main():
  print(f"\n -----------------  Verificamos los datos de la validación cruzada  ----------------- ")
  print(f"El promedio de los datos es: {scores.mean()}")
  print(f"La varianza de los datos es: {scores.std()}")
+ for i, scores in enumerate(scores, 1):
+    print(f"El score de cada fold es: {scores:.4f}")
 
  #Entrenamos usando el modelo con pipe
  pipe.fit(X_train, y_train)

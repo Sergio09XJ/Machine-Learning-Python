@@ -1,5 +1,5 @@
 
-from src.services.analizador_Modelo_Fraude import preparacionDatos, preparaciónTrainyTest, generacionModeloBosqueRandom, entrenamiento, predicción, MinMaxEscalado, escaladoEstadar, generacionModeloVecinos, accuracy_scoreFraude
+from src.services.analizador_Modelo_Fraude import preparacionDatos, preparaciónTrainyTest, generacionModeloBosqueRandom, entrenamiento, predicción, MinMaxEscalado, escaladoEstadar, generacionModeloVecinos, accuracy_scoreFraude, validacion_cruzada
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import MinMaxScaler, StandardScaler #Métodos para escalar valores. 
 import numpy as np
@@ -40,17 +40,22 @@ def main():
  #Instanciamos y entrenamos el modelo: 
  modelo = generacionModeloVecinos()
 
- #instanciamos el escalador de datos: 
+ #instanciamos el escalador de datos y escalamos la fase de entrenamiento: 
  scaler = StandardScaler()
 
- #Entrenamos el modelo 
- modelo.fit(X_train, y_train)
+ X_train_escalado = escaladoEstadar(scaler, 1, X_train)
 
- #Validación del modelo 
- y_sombreroValidacion = modelo.predict(X_validacion)
+ #Entrenamos el modelo con los datos escalados 
+ modelo.fit(X_train_escalado, y_train)
+
+ #Escalamos los datos de Validación y Validación del modelo 
+
+ X_validacion_escalado = escaladoEstadar(scaler, 0, X_validacion)
+ y_sombreroValidacion = modelo.predict(X_validacion_escalado)
 
  #Testeamos el modelo 
- y_sombreroTest = modelo.predict(X_test)
+ X_test_escalado = escaladoEstadar(scaler, 0, X_test)
+ y_sombreroTest = modelo.predict(X_test_escalado)
 
  #Medimos el accuracy 
 
@@ -63,10 +68,41 @@ def main():
  print(f"El Accuracy para la validación en Manual es: {acurracyValidacion}")
  print(f"El Accuracy para el test en Manual es: {acurracyTest}")
 
+ #Hacemos uso de Cross-Validation: 
+
+ #Instanciamos el Pipeline
+ pipeDos = Pipeline([
+       ("scaler", StandardScaler()),
+       ("modeloKNN",generacionModeloVecinos())
+   ]
+  )
+
+ #Entrenamos con cross validation
+ scores = validacion_cruzada(pipeDos, X_train, y_train, 5, "accuracy")
+ print(f"\n -----------------  Verificamos los datos de la validación cruzada  ----------------- ")
+ print(f"El promedio de los datos es: {scores.mean()}")
+ print(f"La varianza de los datos es: {scores.std()}")
+
+ #Entrenamos usando el modelo con pipe
+ pipe.fit(X_train, y_train)
+
+ #predecimos la validación y el test con pipe
+ valoresPredichosValCross = pipe.predict(X_validacion)
+ valoresPredichosTestCross = pipe.predict(X_test)
+
+ print(f"\n -----------------  Pipeline / Manual / CrossValidation ----------------- ")
+ print(f"El Accuracy para la validación en PipeLine es: {accuracy_scoreFraude(y_validacion, valoresPredichosVal)}")
+ print(f"El Accuracy para el test en PipeLine es: {accuracy_scoreFraude(y_test, valoresPredichosTest)}")
+ print(f"El Accuracy para la validación en Manual es: {acurracyValidacion}")
+ print(f"El Accuracy para el test en Manual es: {acurracyTest}")
+ print(f"El Accuracy para la validación en PipeLine cross es: {accuracy_scoreFraude(y_validacion, valoresPredichosValCross)}")
+ print(f"El Accuracy para el test en PipeLine cross es: {accuracy_scoreFraude(y_test, valoresPredichosTestCross)}")
+
+ 
+ 
 
 
-
-
+ 
 
 
 

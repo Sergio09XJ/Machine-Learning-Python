@@ -78,19 +78,19 @@ def main():
   )
 
  #Entrenamos con cross validation
- scores = validacion_cruzada(pipeDos, X_train, y_train, 5, "accuracy")
+ scores = validacion_cruzada(pipeDos, X_aux, y_aux, 5, "accuracy")
  print(f"\n -----------------  Verificamos los datos de la validación cruzada  ----------------- ")
  print(f"El promedio de los datos es: {scores.mean()}")
- print(f"La varianza de los datos es: {scores.std()}")
- for i, scores in enumerate(scores, 1):
-    print(f"El score de cada fold es: {scores:.4f}")
+ print(f"La desviación de los datos es: {scores.std()}")
+ for i, score in enumerate(scores, 1):
+    print(f"El score de cada fold es: {score:.4f}")
 
  #Entrenamos usando el modelo con pipe
- pipe.fit(X_train, y_train)
+ pipeDos.fit(X_train, y_train)
 
  #predecimos la validación y el test con pipe
- valoresPredichosValCross = pipe.predict(X_validacion)
- valoresPredichosTestCross = pipe.predict(X_test)
+ valoresPredichosValCross = pipeDos.predict(X_validacion)
+ valoresPredichosTestCross = pipeDos.predict(X_test)
 
  print(f"\n -----------------  Pipeline / Manual / CrossValidation ----------------- ")
  print(f"El Accuracy para la validación en PipeLine es: {accuracy_scoreFraude(y_validacion, valoresPredichosVal)}")

@@ -1,0 +1,22 @@
+¿Qué características distinguen al Underfitting del Overfitting?
+- El underfitting se caracteriza como la falta de complejidad del modelo para hacerle frente al patron subyaciente de los datos. 
+  Mientras que el Overfitting es el sobreaprendizaje en el proceso de entrenamiento, aprendiendo patrones y características de los datos que evitara la generalización del modelo. 
+
+¿Qué sucedió cuando incrementaste vecinos?
+- Ocurria un underfitting ya que el modelo generalizaba mas(includo con otros hiperparametros).
+
+¿El modelo con mayor Accuracy en Train fue necesariamente el mejor?
+- No Son el mismo modelo solo que con una configuración de hiperparametros y escalado distintos. 
+
+¿Cómo identificaste el modelo con mejor capacidad de generalización?
+- En base a la relación entre el r_2 de training, validation y test. 
+
+¿Qué aportó Cross-validation a tu evaluación?
+- Una mejor visualización de Entrenamiento del modelo en base a los datos para un mejor ajuste de los hiperparametros
+
+¿Por qué reservaste Test hasta el final?
+- Sirve como sello de garantía que el modelo es capaz de generalizar bien ante cualquier dataset. 
+  Es importante que el modelo no se contamiente con los datos de test en el entrenaminento o cualquier validación anterior. 
+
+¿Qué aprendiste sobre la relación entre complejidad y rendimiento?
+- Que mas complejo no es siempre mayor rendimiento y menos complejo no es siempre peor modelo. 

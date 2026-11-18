@@ -2,13 +2,13 @@ from math import pow
 from sklearn.metrics import mean_squared_error
 
 
-y_real =   [100, 200, 300, 400, 500, 600]
+y_real =   [100, 200, 300, 400, 500, 60]
 
 y_pred_A = [110, 190, 310, 390, 510, 590]
 
 y_pred_B = [150, 180, 350, 300, 550, 500]
 
-y_pred_A = [110, 190, 333, 390, 510, 590]
+y_pred_C = [110, 190, 333, 390, 510, 590]
 
 def funcPerdida(y_real, y_predicha): 
     if len(y_real) != len(y_predicha): 
@@ -27,5 +27,9 @@ try:
     print("\n Función sklearn para MSE: ")
     print(f" El MSE de y_pred_A es: {mean_squared_error(y_real, y_pred_A)}")
     print(f" El MSE de y_pred_B es: {mean_squared_error(y_real, y_pred_B)}")
+
+    print("\n Comparación, aumento de 23 puntos en valor de la predicción de A: ")
+    print(f" El MSE de y_pred_A es: {mean_squared_error(y_real, y_pred_A)}")
+    print(f" El MSE de y_pred_C(aumentado) es: {mean_squared_error(y_real, y_pred_C)}")
 except ValueError as error: 
     print (error)

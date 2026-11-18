@@ -1,28 +1,42 @@
 1. Calculo Manual de funcion de perdida: 
 
 y_real =   100, 200, 300, 400, 500, 60
-y_pred_A = 110, 190, 310, 390, 510, 590]
+y_pred_A = 110, 190, 310, 390, 510, 590
 
-A. Resta (real - pred) = -10, 10, -10, 10, -10, 430
-B. Elevación = 100, 100, 8,100, 100, 8,100, 184,900 
-C. Suman valores = 34,990
-D. Division entre longitud = 5,831.66
+A. Resta (real - pred) = -10, 10, -10, 10, -10, -530
+B. Elevación = 100, 100, 100, 100, 100, 280,900 
+C. Suman valores = 281, 400
+D. Division entre longitud = 46,900
 
 y_real =   100, 200, 300, 400, 500, 60
 y_pred_B = 150, 180, 350, 300, 550, 500
 
-A. Resta (real - pred) = 50, 20, -50, 100, -50, 440
+A. Resta (real - pred) = -50, 20, -50, 100, -50, -440
 B. Elevación = 2,500, 400, 2500, 10,000, 2500, 193,600
 C. Suman valores = 211,500
 D. Division entre longitud = 35,250
 
-y_pred_A tiene menor perdida ya que su MSE es menor, de 5,831.66
+y_pred_B tiene menor perdida ya que su MSE es menor, de 35250.0
 
 Responde en tu README:
 1. ¿Cuál de los dos modelos tiene menor pérdida?
+- El modelo B por una diferencia de 11,650 puntos. 
+
 2. ¿Qué significa que un modelo tenga un MSE más pequeño?
+- Que el promedio de las diferencias al cuadrado es menor, hay una menor distancía entre los valores reales y predichos. 
+
 3. ¿Por qué elevamos los residuos al cuadrado?
+- Por simplicidad en las oparaciones de entrenamiento del algoritmo, para evitar valores negativos, para hacer notar mas los outliers. 
+
 4. ¿Qué sucede cuando un modelo tiene errores extremadamente grandes?
+- Su MSE se va a los cielos ya que con esta métrica se acentuan mas. 
+
 5. ¿Por qué el MSE no tiene las mismas unidades que los datos originales?
+-por el cuadrado en la diferencia entre los valores reales y predichos. El objetivo aquí es analizarlo en un aspecto mas matematico. 
+
 6. ¿Por qué minimizar la pérdida es importante durante el entrenamiento?
+-Minimizar la perdida es acercar los parametros del modelo a un valor que le permite encontrar los patrones en los datos y lograr  predicciones con mayor presición. 
+
 7. ¿Cuál es la diferencia entre una función de pérdida y una métrica?
+-La función de pérdida se usa como método para calibrar los parametros dle modelo, 
+ la métrica se usa como manenar de comprender como trabaja el modelo y ajustar los hiperparámetros. 

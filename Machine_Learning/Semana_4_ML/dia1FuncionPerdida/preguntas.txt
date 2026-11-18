@@ -1,0 +1,28 @@
+1. Calculo Manual de funcion de perdida: 
+
+y_real =   100, 200, 300, 400, 500, 60
+y_pred_A = 110, 190, 310, 390, 510, 590]
+
+A. Resta (real - pred) = -10, 10, -10, 10, -10, 430
+B. Elevación = 100, 100, 8,100, 100, 8,100, 184,900 
+C. Suman valores = 34,990
+D. Division entre longitud = 5,831.66
+
+y_real =   100, 200, 300, 400, 500, 60
+y_pred_B = 150, 180, 350, 300, 550, 500
+
+A. Resta (real - pred) = 50, 20, -50, 100, -50, 440
+B. Elevación = 2,500, 400, 2500, 10,000, 2500, 193,600
+C. Suman valores = 211,500
+D. Division entre longitud = 35,250
+
+y_pred_A tiene menor perdida ya que su MSE es menor, de 5,831.66
+
+Responde en tu README:
+1. ¿Cuál de los dos modelos tiene menor pérdida?
+2. ¿Qué significa que un modelo tenga un MSE más pequeño?
+3. ¿Por qué elevamos los residuos al cuadrado?
+4. ¿Qué sucede cuando un modelo tiene errores extremadamente grandes?
+5. ¿Por qué el MSE no tiene las mismas unidades que los datos originales?
+6. ¿Por qué minimizar la pérdida es importante durante el entrenamiento?
+7. ¿Cuál es la diferencia entre una función de pérdida y una métrica?

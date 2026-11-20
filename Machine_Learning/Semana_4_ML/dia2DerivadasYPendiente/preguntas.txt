@@ -1,0 +1,19 @@
+Actividad 1: 
+
+1. Funciones: 
+
+  A. f(x)=x^2
+  B. g(x)=3x^2+2x+1
+  C. h(x)=2x^3-4x^2+5
+
+2. Derivadas: 
+
+   A. f´(x)=2x
+   B. g´(x)=6x+2
+   C. h´(x)=6x^2-8x
+
+3. Evaluación de x=-2,-1,0,1,2
+  
+   A. x = -4, -2, 0, 2, 4
+   B. x = -10, -4, 2, 8, 14
+   C. x = 40, 14, 0, -2, 8

@@ -17,3 +17,28 @@ Actividad 1:
    A. x = -4, -2, 0, 2, 4
    B. x = -10, -4, 2, 8, 14
    C. x = 40, 14, 0, -2, 8
+
+¿Qué información proporciona una derivada?
+- La derivada nos dice el valor la taza de cambio(pendiente) en un punto especifico.
+
+¿Qué diferencia existe entre una función y su derivada?
+-  La función asigna un valor a cada valor de entrada, la derivada nos dice cuan rapido cambia ese resutlado en punto exacto.  
+
+¿Qué significa que una derivada sea positiva?
+- Significa que en ese punto la función es creciente. 
+
+¿Qué significa que una derivada sea negativa?
+- Significa que en ese punto la función es decreciente 
+
+¿Por qué una derivada igual a cero no garantiza que encontramos un mínimo?
+- Porque se puede trata de un máximo o de un punto de inflexión 
+
+¿Qué relación existe entre la derivada y la función de pérdida?
+- La derivada nos ayuda a saber cuanto cambio hay de perdida de un parametro w o b en la función de pérdida. 
+
+¿Qué es un gradiente y por qué es importante en Machine Learning?
+- Es el vector que contiene el cambio de  todas las variables de una función multivariable. 
+- En machine learning contiene el cambio de perdida para w y b, es importante porque nos ayuda a corregir esa perdida. 
+
+¿Por qué Gradient Descent utiliza la dirección contraria al gradiente?
+- Porque el gradiente tiende a la dirección de mayor crecimiento de esa perdida(buscamos lo contrario).

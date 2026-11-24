@@ -1,0 +1,13 @@
+
+4. Sobre el Algoritmo de Gradiente: 
+
+¿La pérdida disminuyó?
+- Si bastante llegando a casí 0. 
+¿Los parámetros se aproximaron a los valores esperados?
+-Si 2 para w ,1 para b 
+¿Qué sucedió con la pérdida conforme aumentaron las iteraciones?
+-sta fue bajando, desde 57 hasta 0.0000036
+¿Por qué los parámetros cambiaron de valor?
+-Porque se modifican con el gradiente y alpha, van en dirección contraria al gradiente buscando el punto minimo general. 
+¿Qué sucedería si utilizaras un learning rate mucho más pequeño?
+-Tomaría muchas mas iteraciones pero al final llegaría al mismo resultado.

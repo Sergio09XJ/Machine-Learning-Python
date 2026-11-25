@@ -1,0 +1,37 @@
+¿Qué es el learning rate?
+
+
+
+¿Por qué afecta el tamaño de las actualizaciones?
+
+
+
+¿Qué sucede cuando es demasiado pequeño?
+
+
+
+¿Qué sucede cuando es demasiado grande?
+
+
+
+¿Qué es el overshooting?
+
+
+
+¿Qué significa que un algoritmo diverja?
+
+
+
+¿Cómo puedes identificar que un learning rate está funcionando adecuadamente?
+
+
+
+¿Por qué no existe un learning rate universal?
+
+
+
+¿Qué es un Learning Rate Scheduler?
+
+
+
+¿Qué configuración obtuvo el mejor comportamiento en tus experimentos y por qué?

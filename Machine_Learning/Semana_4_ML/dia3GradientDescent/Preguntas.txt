@@ -11,3 +11,27 @@
 -Porque se modifican con el gradiente y alpha, van en dirección contraria al gradiente buscando el punto minimo general. 
 ¿Qué sucedería si utilizaras un learning rate mucho más pequeño?
 -Tomaría muchas mas iteraciones pero al final llegaría al mismo resultado.
+
+7. Pregutntas: 
+1. ¿Qué es Gradient Descent?
+- El gradiente es el vector que contiene el valor de las derivadas parciales de los parametros de la función de perdida. 
+  El gradient Descent es el proceso/algoritmo para baja el error durante el entrenamiento usando el gradiente. 
+2. ¿Qué representa cada elemento de la fórmula \(\theta \leftarrow \theta-\alpha\nabla J(\theta)\)?
+- \theta son los parametros que se actualizan, \alpha es el rate con el que se controla el tamaño de la actualización del error. 
+  \nabla J(\theta) es el gradiente de la función de perdida de los parametos. 
+3. ¿Por qué restamos el gradiente?
+- Porque el gradiente indica la dirección de crecimiento local entonces  lleva al lado contrario a donde deseamos ir(el minimo global).
+4. ¿Qué sucede cuando el learning rate es demasiado pequeño?
+- Se necestan mas iteracinones para llegar al minimo / a los parametros optimos 
+5. ¿Qué sucede cuando es demasiado grande?
+- En el mejor de los casos nos pasamos del minimo en el peor el programa falla ya que los parametros se vuelven demasiado grandes. 
+6. ¿Qué significa que un algoritmo haya convergido?
+- Es el punto donde la cantidad de mejoras en el error se vuelve menor, se estabilizar el modelo. 
+7. ¿Cuál es la diferencia entre mínimo local y mínimo global?
+- Minimo local es el mínimo respecto a sus vecinos proximos, El mínimo global es el punto mas bajo de la función. 
+8. ¿Qué diferencia existe entre Batch, Stochastic y Mini-batch Gradient Descent?
+- Batch usa todos los datos de entrenamiento, stochastic usa uno por uno y Mini-batch un subconjunto de los datos. 
+9. ¿Por qué necesitamos calcular las derivadas parciales de \(w\) y \(b\)?
+- Porque estas nos permiten conocer la pendiente/cambio de hacía a donde se dirigen en cierto punto 
+10. ¿Cómo sabes si el entrenamiento está mejorando?
+- Porque el MSE comienza a bajar en cada iteración, los parametros llegan a su punto optimo, en algunos casos el modelo converge. 

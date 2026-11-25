@@ -1,37 +1,56 @@
-¿Qué es el learning rate?
 
+Actividad 5 :
+| **Learning rate** | **MSE inicial** | **MSE final** | **¿Convergió?** | **Observaciones** |
+| --- | --- | --- | --- | --- |
+| 0.0001 | 57.000000 | 0.530396 | Si  |  El tamaño de los saltos es suficiente para disminuir el error a 0.  |
+| 0.01 |  57.000000 | 0.000036 | si | El tamaño de saltos es el ideal para que el modelo converja en la menor cantidad de estos  |
+| 0.5 |  5.700000e+01 | 2.198004e+305 | Al contrario  | El modelo fallo, supero el minimo para llegar al w y b optimos y no llego a 0 en el MSE |
+| 1.0 |  5.700000e+01 |  1.271517e+270 | Al contrario | Al igual que el pasado el modelo no logro converger  |
+
+
+¿Qué es el learning rate?
+- Es el hiperparametro por el que se multiplica el gradiente para hacer o mas pequeño o mas grande los saltos al encontrar el mínimo de la función de perdida. 
 
 
 ¿Por qué afecta el tamaño de las actualizaciones?
+- Porque se multiplica por el gradiente, el -gradiente apunta a la región con menor crecimiento local de la función 
 
 
 
 ¿Qué sucede cuando es demasiado pequeño?
+- Los pasos son pequeños, haciendo que se necesiten mas iteraciones para llegar al minimo. 
 
 
 
 ¿Qué sucede cuando es demasiado grande?
+- Los pasos son mas grandes haciendo que se pueda pasar del minimo y divergir. 
 
 
 
 ¿Qué es el overshooting?
+- Cuando alpha es grande este puede sobrepasar el mínimo haciendo que el valor comience ocilar.
 
 
 
 ¿Qué significa que un algoritmo diverja?
+- Que se aleja del punto que buscamos, especificamente los pasos comienzan a ser mas grandes. 
 
 
 
 ¿Cómo puedes identificar que un learning rate está funcionando adecuadamente?
+- Porque el valor del MSE comienza disminuir. 
 
 
 
 ¿Por qué no existe un learning rate universal?
+- Porque este depende del contexto del problema que se busca resolver. Los datos, el modelo y la configuración de este. 
 
 
 
 ¿Qué es un Learning Rate Scheduler?
+-Es un método donde alpha no es constante, al inicio comienza grande y conforme se hacerca al mínimo comienza a ser mas pequeño. 
 
 
 
 ¿Qué configuración obtuvo el mejor comportamiento en tus experimentos y por qué?
+- alpha = 0.01, permitio tener el menor margen de error del modelo en la menor cantidad de pasos. 

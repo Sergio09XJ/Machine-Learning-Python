@@ -1,8 +1,13 @@
 import matplotlib.pyplot as plt
 
 # Valores iniciales: 
-theta = [3.0, -2.0, 1-0]
+theta = [3.0, -2.0, 1.0]
+
 alpha = 0.1
+alphaUno = 0.01
+alphaDos = 0.3
+alphaTres = 0.7
+
 epochs = 100
 
 # 1. Función multidimensional | minimo global en (0,0,0)
@@ -31,20 +36,20 @@ def DescensoGradiente(theta, alpha, epochs):
 
    evoCostos = [costo_MSE(theta)]
    thetaAux = [theta[0], theta[1], theta[2]]
-   evoThetaUno = [theta[0]]
-   evoThetaDos = [theta[1]]
-   evoTheataTres = [theta[2]]
-   for i in range(len(epochs)):
+   evoThetaUno  = [theta[0]]
+   evoThetaDos  = [theta[1]]
+   evoThetaTres = [theta[2]]
+   for i in range(epochs):
         theta[0] = theta[0] - ( alpha * derivadasMultivariables(thetaAux)[0])
         theta[1] = theta[1] - ( alpha * derivadasMultivariables(thetaAux)[1])
         theta[2] = theta[2] - ( alpha * derivadasMultivariables(thetaAux)[2])
         thetaAux = [theta[0], theta[1], theta[2]]
         evoCostos.append(costo_MSE(theta))
         evoThetaUno.append(theta[0])
-        evoThetaDos.append(thetaDos[1])
+        evoThetaDos.append(theta[1])
         evoThetaTres.append(theta[2])
     
-   return evoCostos, evoThetaUno, evoThetaDos, evoTheataTres
+   return evoCostos, evoThetaUno, evoThetaDos, evoThetaTres
 
 
 #4 Comparación por aproximación numérica: 
@@ -61,7 +66,7 @@ print(f"El gradiente con el método numérico es: {derivada_numerica_multivariab
 
 #5 Vizualización de los datos
 
-evoCostos, evoThetaUno, evoThetaDos, evoTheataTres = DescensoGradiente(theta, alpha, epochs)
+evoCostos, evoThetaUno, evoThetaDos, evoThetaTres = DescensoGradiente(theta, alpha, epochs)
 # Gráfica 1: Evolución del costo
 
 plt.figure(figsize=(8, 4))
@@ -71,14 +76,14 @@ plt.xlabel("Iteraciones")
 plt.ylabel("Valor del costo J")
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
-plt.savefig("graficasVisualizacion/evolucion_costo.png")
+plt.savefig("graficasCosto/evolucion_costo.png")
 
 
 # Gráfica 2: Evolución de los parámetros
 plt.figure(figsize=(8, 4))
 plt.plot(evoThetaUno, label="θ₁", linewidth=2)
 plt.plot(evoThetaDos, label="θ₂", linewidth=2)
-plt.plot(evoTheataTres, label="θ₃", linewidth=2)
+plt.plot(evoThetaTres, label="θ₃", linewidth=2)
 plt.axhline(0, color="black", linestyle=":", linewidth=1)  # Referencia en el mínimo (0)
 plt.title("Evolución de los parámetros")
 plt.xlabel("Iteraciones")
@@ -86,8 +91,89 @@ plt.ylabel("Valor del parámetro")
 plt.legend()
 plt.grid(True, linestyle="--", alpha=0.6)
 plt.tight_layout()
-plt.savefig("graficasVisualizacion/evolucion_parametros.png")
+plt.savefig("graficasError/evolucion_parametros.png")
+
+#6 Comparacion Con diferntes learning rates 
+theta = [3.0, -2.0, 1.0]
+evoCostos, evoThetaUno, evoThetaDos, evoThetaTres = DescensoGradiente(theta, alphaUno, epochs)
+# Gráfica 1: Evolución del costo
+
+plt.figure(figsize=(8, 4))
+plt.plot(evoCostos, color="crimson", linewidth=2)
+plt.title("Evolución de la función de costo con LR de 0.01")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del costo J")
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasCosto/evolucion_costoUno.png")
 
 
+# Gráfica 2: Evolución de los parámetros
+plt.figure(figsize=(8, 4))
+plt.plot(evoThetaUno, label="θ₁", linewidth=2)
+plt.plot(evoThetaDos, label="θ₂", linewidth=2)
+plt.plot(evoThetaTres, label="θ₃", linewidth=2)
+plt.axhline(0, color="black", linestyle=":", linewidth=1)  # Referencia en el mínimo (0)
+plt.title("Evolución de los parámetros con LR de 0.01")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del parámetro")
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasError/evolucion_parametrosUno.png")
+
+theta = [3.0, -2.0, 1.0]
+evoCostos, evoThetaUno, evoThetaDos, evoThetaTres = DescensoGradiente(theta, alphaDos, epochs)
+# Gráfica 1: Evolución del costo
+
+plt.figure(figsize=(8, 4))
+plt.plot(evoCostos, color="crimson", linewidth=2)
+plt.title("Evolución de la función de costo con LR de 0.3")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del costo J")
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasCosto/evolucion_costoDos.png")
 
 
+# Gráfica 2: Evolución de los parámetros
+plt.figure(figsize=(8, 4))
+plt.plot(evoThetaUno, label="θ₁", linewidth=2)
+plt.plot(evoThetaDos, label="θ₂", linewidth=2)
+plt.plot(evoThetaTres, label="θ₃", linewidth=2)
+plt.axhline(0, color="black", linestyle=":", linewidth=1)  # Referencia en el mínimo (0)
+plt.title("Evolución de los parámetros con LR de 0.3")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del parámetro")
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasError/evolucion_parametrosDos.png")
+
+theta = [3.0, -2.0, 1.0]
+evoCostos, evoThetaUno, evoThetaDos, evoThetaTres = DescensoGradiente(theta, alphaTres, epochs)
+# Gráfica 1: Evolución del costo
+
+plt.figure(figsize=(8, 4))
+plt.plot(evoCostos, color="crimson", linewidth=2)
+plt.title("Evolución de la función de costo con LR de 0.7")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del costo J")
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasCosto/evolucion_costoTres.png")
+
+
+# Gráfica 2: Evolución de los parámetros
+plt.figure(figsize=(8, 4))
+plt.plot(evoThetaUno, label="θ₁", linewidth=2)
+plt.plot(evoThetaDos, label="θ₂", linewidth=2)
+plt.plot(evoThetaTres, label="θ₃", linewidth=2)
+plt.axhline(0, color="black", linestyle=":", linewidth=1)  # Referencia en el mínimo (0)
+plt.title("Evolución de los parámetros con LR de 0.7")
+plt.xlabel("Iteraciones")
+plt.ylabel("Valor del parámetro")
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.6)
+plt.tight_layout()
+plt.savefig("graficasError/evolucion_parametrosTres.png")

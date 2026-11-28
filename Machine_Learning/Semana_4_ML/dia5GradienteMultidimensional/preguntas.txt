@@ -1,0 +1,23 @@
+Responde con tus propias palabras:
+1. ¿Cuál es la diferencia entre una función de una variable y una función multidimensional?
+- En función de una variable el parametro con el que se actualiza el modelo es solo uno, esto hace que el gradiente solo un vector con la derivada de ese parámetro. 
+- En una función multivariable es la misma idea solo que se deriva usando parciales, y el gradiente es el vector que contiene todas las derivadas de cada parámetro
+2. ¿Qué es una derivada parcial?
+- Una derivada parcial es el método que se usa para derivar funciones multivariables. Se elije la variable a derivar y las demas sse tratan como constantes. 
+3. ¿Qué es un gradiente?
+- El vector que contiene el resultado de todas las derivadas parciales en la misma cantidad de parámetros de la función. 
+- Nos indica hacía donde esta el crecimiento de la función de manera local. 
+4. ¿Por qué el gradiente es un vector?
+- Porque contiene todas las derivadas de la función multivariable, un vector tiene magnitud y dirección, aquí nos indica la dirección al máximo local.  
+5. ¿Qué significa que el gradiente indique la dirección de mayor crecimiento?
+- Es donde la función tiene máximo local, nos indica  desde ese punto, la dirección donde sube mas rápido. 
+6. ¿Por qué utilizamos el gradiente negativo para minimizar una función?
+- Porque nos interesa el mínimo no el máximo, entonces vamos en dirección contraria. 
+7. ¿Qué sucede si modificamos todos los parámetros simultáneamente?
+- Es justo lo que hace gradient descent, combinar todas las derivadas parciales nos mueve en la dirección mas directa al mínimo. 
+8. ¿Por qué una red neuronal necesita calcular gradientes multidimensionales?
+- Porque cada peso equivale a una dirección y cada sesgo a una neurona, en una red neuronal hay miles o millones de estas. 
+9. ¿Qué diferencia existe entre calcular el gradiente analíticamente y aproximarlo numéricamente?
+- Analiticamente es el método que usamos los humanos para hacer matématicas, numéricamente se usa la definición de derivada para hacer aproximaciones. 
+10. ¿Qué observaste al modificar el learning rate?
+- Los saltos aumentan entre cada actualización de la disminución del error, en base a la cantidad esto se hacía mas rapido o lento, en el peor de los casos(saltos grandes) el módelo divergió.  
